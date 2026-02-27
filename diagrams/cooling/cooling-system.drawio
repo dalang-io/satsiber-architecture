@@ -1,81 +1,212 @@
 <mxfile host="app.diagrams.net" agent="draw.io" version="24.0.0">
   <diagram id="cooling-system" name="Cooling System - Tier III">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <!-- Title -->
-        <mxCell id="t1" value="SATSIBER DC - COOLING SYSTEM DIAGRAM (TIER III - N+1)" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="30" width="650" height="40" as="geometry" />
+        <!-- BORDER -->
+        <mxCell id="bo" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="20" y="20" width="1614" height="1129" as="geometry" /></mxCell>
+        <mxCell id="bi" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="30" y="30" width="1594" height="1109" as="geometry" /></mxCell>
+        <!-- TITLE BLOCK -->
+        <mxCell id="tb" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="1044" y="989" width="570" height="140" as="geometry" /></mxCell>
+        <mxCell id="tb1" value="SATSIBER" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1"><mxGeometry x="1054" y="994" width="200" height="35" as="geometry" /></mxCell>
+        <mxCell id="tb2" value="DATA CENTER FACILITY" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontFamily=Helvetica;fontColor=#444444;" vertex="1" parent="1"><mxGeometry x="1054" y="1025" width="200" height="20" as="geometry" /></mxCell>
+        <mxCell id="tbd1" value="" style="line;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="1254" y="989" width="1" height="140" as="geometry" /></mxCell>
+        <mxCell id="tbt" value="HVAC &amp; COOLING SYSTEM DIAGRAM&#xa;CHILLED WATER DISTRIBUTION" style="text;html=1;align=left;verticalAlign=top;fontSize=13;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1"><mxGeometry x="1264" y="1000" width="340" height="40" as="geometry" /></mxCell>
+        <mxCell id="tbd2" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="1254" y="1049" width="360" height="1" as="geometry" /></mxCell>
+        <mxCell id="tbdwg" value="DWG NO:  SAT-DC-CL-001       REV: A       DATE: 2026-02-27" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1264" y="1055" width="340" height="16" as="geometry" /></mxCell>
+        <mxCell id="tbd3" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="1254" y="1075" width="360" height="1" as="geometry" /></mxCell>
+        <mxCell id="tbstd" value="SCALE: NTS     STD: ASHRAE TC 9.9     UPTIME TIER III" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1264" y="1080" width="340" height="16" as="geometry" /></mxCell>
+        <mxCell id="tbcl" value="UPTIME TIER III" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1264" y="1100" width="140" height="20" as="geometry" /></mxCell>
+        <mxCell id="tbd4" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="1044" y="1049" width="210" height="1" as="geometry" /></mxCell>
+        <mxCell id="tbdes" value="DESIGNED: SATSIBER ENGINEERING&#xa;CHECKED: —     APPROVED: —" style="text;html=1;align=left;verticalAlign=top;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1054" y="1058" width="200" height="28" as="geometry" /></mxCell>
+
+        <!-- ===== OUTDOOR SECTION ===== -->
+        <mxCell id="outdoor" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9fafb;strokeColor=#95a5a6;strokeWidth=2;dashed=1;dashPattern=12 4;" vertex="1" parent="1"><mxGeometry x="50" y="50" width="920" height="220" as="geometry" /></mxCell>
+        <mxCell id="outdoor-l" value="OUTDOOR — COOLING YARD" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#95a5a6;" vertex="1" parent="1"><mxGeometry x="60" y="52" width="200" height="18" as="geometry" /></mxCell>
+
+        <!-- Cooling Towers -->
+        <mxCell id="ct-a" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2e86c1;strokeColor=#1a5276;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="80" y="90" width="110" height="70" as="geometry" /></mxCell>
+        <mxCell id="ct-a-l" value="COOLING TOWER A" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="80" y="92" width="110" height="14" as="geometry" /></mxCell>
+        <mxCell id="ct-a-d" value="INDUCED DRAFT&#xa;COUNTERFLOW" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#d6eaf8;" vertex="1" parent="1"><mxGeometry x="80" y="110" width="110" height="28" as="geometry" /></mxCell>
+        <mxCell id="ct-a-t" value="CT-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#1a5276;rounded=1;" vertex="1" parent="1"><mxGeometry x="160" y="92" width="30" height="14" as="geometry" /></mxCell>
+
+        <mxCell id="ct-b" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2e86c1;strokeColor=#1a5276;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="240" y="90" width="110" height="70" as="geometry" /></mxCell>
+        <mxCell id="ct-b-l" value="COOLING TOWER B" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="240" y="92" width="110" height="14" as="geometry" /></mxCell>
+        <mxCell id="ct-b-d" value="INDUCED DRAFT&#xa;COUNTERFLOW" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#d6eaf8;" vertex="1" parent="1"><mxGeometry x="240" y="110" width="110" height="28" as="geometry" /></mxCell>
+        <mxCell id="ct-b-t" value="CT-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#1a5276;rounded=1;" vertex="1" parent="1"><mxGeometry x="320" y="92" width="30" height="14" as="geometry" /></mxCell>
+
+        <mxCell id="ct-c" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2e86c1;strokeColor=#1a5276;strokeWidth=2;dashed=1;dashPattern=8 4;" vertex="1" parent="1"><mxGeometry x="400" y="90" width="110" height="70" as="geometry" /></mxCell>
+        <mxCell id="ct-c-l" value="COOLING TOWER C&#xa;(N+1 SPARE)" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="400" y="92" width="110" height="24" as="geometry" /></mxCell>
+        <mxCell id="ct-c-t" value="CT-C" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#1a5276;rounded=1;" vertex="1" parent="1"><mxGeometry x="480" y="92" width="30" height="14" as="geometry" /></mxCell>
+
+        <!-- Chillers -->
+        <mxCell id="ch-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e8449;strokeColor=#145a32;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="580" y="80" width="100" height="70" as="geometry" /></mxCell>
+        <mxCell id="ch-a-l" value="CHILLER A" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="580" y="82" width="100" height="14" as="geometry" /></mxCell>
+        <mxCell id="ch-a-d" value="WATER-COOLED&#xa;CENTRIFUGAL&#xa;500 kW" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#d5f5e3;" vertex="1" parent="1"><mxGeometry x="580" y="100" width="100" height="36" as="geometry" /></mxCell>
+        <mxCell id="ch-a-t" value="CH-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#145a32;rounded=1;" vertex="1" parent="1"><mxGeometry x="650" y="82" width="30" height="14" as="geometry" /></mxCell>
+
+        <mxCell id="ch-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e8449;strokeColor=#145a32;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="710" y="80" width="100" height="70" as="geometry" /></mxCell>
+        <mxCell id="ch-b-l" value="CHILLER B" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="710" y="82" width="100" height="14" as="geometry" /></mxCell>
+        <mxCell id="ch-b-d" value="WATER-COOLED&#xa;CENTRIFUGAL&#xa;500 kW" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#d5f5e3;" vertex="1" parent="1"><mxGeometry x="710" y="100" width="100" height="36" as="geometry" /></mxCell>
+        <mxCell id="ch-b-t" value="CH-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#145a32;rounded=1;" vertex="1" parent="1"><mxGeometry x="780" y="82" width="30" height="14" as="geometry" /></mxCell>
+
+        <mxCell id="ch-c" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e8449;strokeColor=#145a32;strokeWidth=2;dashed=1;dashPattern=8 4;" vertex="1" parent="1"><mxGeometry x="840" y="80" width="100" height="70" as="geometry" /></mxCell>
+        <mxCell id="ch-c-l" value="CHILLER C&#xa;(N+1 SPARE)" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="840" y="82" width="100" height="24" as="geometry" /></mxCell>
+        <mxCell id="ch-c-t" value="CH-C" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#145a32;rounded=1;" vertex="1" parent="1"><mxGeometry x="910" y="82" width="30" height="14" as="geometry" /></mxCell>
+
+        <!-- Condenser Water Lines -->
+        <mxCell id="cw-line" value="CONDENSER WATER LOOP" style="endArrow=block;endFill=1;strokeColor=#2e86c1;strokeWidth=2;fontSize=7;fontFamily=Helvetica;fontColor=#2e86c1;fontStyle=2;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="510" y="125" as="sourcePoint" /><mxPoint x="580" y="125" as="targetPoint" /></mxGeometry>
         </mxCell>
-        <!-- Cooling Tower A -->
-        <mxCell id="ct-a" value="COOLING&#xa;TOWER A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="100" width="130" height="70" as="geometry" />
+        <mxCell id="cw-return" value="CONDENSER WATER RETURN" style="endArrow=block;endFill=1;strokeColor=#c0392b;strokeWidth=1.5;fontSize=7;fontFamily=Helvetica;fontColor=#c0392b;fontStyle=2;labelPosition=center;verticalLabelPosition=top;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="580" y="140" as="sourcePoint" /><mxPoint x="510" y="140" as="targetPoint" /></mxGeometry>
         </mxCell>
-        <!-- Cooling Tower B -->
-        <mxCell id="ct-b" value="COOLING&#xa;TOWER B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="100" width="130" height="70" as="geometry" />
-        </mxCell>
-        <!-- Cooling Tower C (N+1) -->
-        <mxCell id="ct-c" value="COOLING&#xa;TOWER C (N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="100" width="130" height="70" as="geometry" />
-        </mxCell>
-        <!-- Chiller A -->
-        <mxCell id="ch-a" value="CHILLER A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="230" width="130" height="60" as="geometry" />
-        </mxCell>
-        <!-- Chiller B -->
-        <mxCell id="ch-b" value="CHILLER B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="230" width="130" height="60" as="geometry" />
-        </mxCell>
-        <!-- Chiller C (N+1) -->
-        <mxCell id="ch-c" value="CHILLER C (N+1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="230" width="130" height="60" as="geometry" />
-        </mxCell>
-        <!-- Primary Pump Loop -->
-        <mxCell id="pump-p" value="PRIMARY CHILLED WATER PUMP LOOP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="350" width="650" height="40" as="geometry" />
-        </mxCell>
-        <!-- Secondary Pump Loop -->
-        <mxCell id="pump-s" value="SECONDARY CHILLED WATER PUMP LOOP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="430" width="650" height="40" as="geometry" />
-        </mxCell>
+
+        <!-- Condenser Water Pumps -->
+        <mxCell id="cwp" value="CW PUMPS&#xa;(2+1 N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2e86c1;strokeWidth=1.5;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="560" y="170" width="80" height="30" as="geometry" /></mxCell>
+        <mxCell id="cwp-t" value="CWP" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2e86c1;rounded=1;" vertex="1" parent="1"><mxGeometry x="610" y="172" width="30" height="14" as="geometry" /></mxCell>
+
+        <!-- ===== INDOOR SECTION ===== -->
+        <mxCell id="indoor-l" value="INDOOR — MECHANICAL ROOM" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#95a5a6;" vertex="1" parent="1"><mxGeometry x="60" y="280" width="220" height="18" as="geometry" /></mxCell>
+
+        <!-- Primary Chilled Water Loop -->
+        <mxCell id="pchw-bus" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2e86c1;strokeColor=#1a5276;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="80" y="310" width="880" height="10" as="geometry" /></mxCell>
+        <mxCell id="pchw-l" value="PRIMARY CHILLED WATER SUPPLY  —  7°C / 12°C  (SUPPLY / RETURN)" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2e86c1;" vertex="1" parent="1"><mxGeometry x="80" y="322" width="880" height="14" as="geometry" /></mxCell>
+        <mxCell id="pchw-t" value="PCHW" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#1a5276;rounded=1;" vertex="1" parent="1"><mxGeometry x="50" y="310" width="40" height="14" as="geometry" /></mxCell>
+
+        <!-- Primary Pumps -->
+        <mxCell id="pp-a" value="PP-A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2e86c1;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="200" y="345" width="60" height="28" as="geometry" /></mxCell>
+        <mxCell id="pp-b" value="PP-B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2e86c1;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="280" y="345" width="60" height="28" as="geometry" /></mxCell>
+        <mxCell id="pp-c" value="PP-C&#xa;(N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2e86c1;strokeWidth=1.5;fontSize=7;fontStyle=1;fontFamily=Helvetica;dashed=1;dashPattern=8 4;" vertex="1" parent="1"><mxGeometry x="360" y="345" width="60" height="28" as="geometry" /></mxCell>
+        <mxCell id="pp-label" value="PRIMARY CHW PUMPS" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#2e86c1;" vertex="1" parent="1"><mxGeometry x="200" y="375" width="220" height="14" as="geometry" /></mxCell>
+
+        <!-- Chilled water lines down -->
+        <mxCell id="chw-to-pchw-a" value="" style="endArrow=none;strokeColor=#2e86c1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="630" y="150" as="sourcePoint" /><mxPoint x="630" y="310" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="chw-to-pchw-b" value="" style="endArrow=none;strokeColor=#2e86c1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="760" y="150" as="sourcePoint" /><mxPoint x="760" y="310" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="chw-to-pchw-c" value="" style="endArrow=none;strokeColor=#2e86c1;strokeWidth=2;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="890" y="150" as="sourcePoint" /><mxPoint x="890" y="310" as="targetPoint" /></mxGeometry></mxCell>
+
+        <!-- Isolation Valves -->
+        <mxCell id="iv-a" value="IV" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=6;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="622" y="228" width="16" height="16" as="geometry" /></mxCell>
+        <mxCell id="iv-b" value="IV" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=6;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="752" y="228" width="16" height="16" as="geometry" /></mxCell>
+        <mxCell id="iv-c" value="IV" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=6;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="882" y="228" width="16" height="16" as="geometry" /></mxCell>
+        <mxCell id="iv-note" value="IV = ISOLATION VALVE&#xa;(CONCURRENT MAINT.)" style="text;html=1;align=left;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;fontStyle=2;" vertex="1" parent="1"><mxGeometry x="910" y="225" width="120" height="20" as="geometry" /></mxCell>
+
+        <!-- Secondary Chilled Water Loop -->
+        <mxCell id="schwp-bus" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e8449;strokeColor=#145a32;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="80" y="410" width="880" height="10" as="geometry" /></mxCell>
+        <mxCell id="schwp-l" value="SECONDARY CHILLED WATER DISTRIBUTION  —  TO CRAH UNITS" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#1e8449;" vertex="1" parent="1"><mxGeometry x="80" y="422" width="880" height="14" as="geometry" /></mxCell>
+        <mxCell id="schwp-t" value="SCHW" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#145a32;rounded=1;" vertex="1" parent="1"><mxGeometry x="50" y="410" width="40" height="14" as="geometry" /></mxCell>
+
+        <!-- Secondary Pumps -->
+        <mxCell id="sp-a" value="SP-A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#abebc6;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="600" y="345" width="60" height="28" as="geometry" /></mxCell>
+        <mxCell id="sp-b" value="SP-B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#abebc6;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="680" y="345" width="60" height="28" as="geometry" /></mxCell>
+        <mxCell id="sp-c" value="SP-C&#xa;(N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#abebc6;strokeColor=#1e8449;strokeWidth=1.5;fontSize=7;fontStyle=1;fontFamily=Helvetica;dashed=1;dashPattern=8 4;" vertex="1" parent="1"><mxGeometry x="760" y="345" width="60" height="28" as="geometry" /></mxCell>
+        <mxCell id="sp-label" value="SECONDARY CHW PUMPS" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#1e8449;" vertex="1" parent="1"><mxGeometry x="600" y="375" width="220" height="14" as="geometry" /></mxCell>
+
+        <!-- Connect primary to secondary -->
+        <mxCell id="p-to-s" value="" style="endArrow=block;endFill=1;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="500" y="320" as="sourcePoint" /><mxPoint x="500" y="410" as="targetPoint" /></mxGeometry></mxCell>
+
+        <!-- ===== DATA HALL SECTION ===== -->
+        <mxCell id="dh-l" value="DATA HALL  —  HOT/COLD AISLE CONTAINMENT" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#95a5a6;" vertex="1" parent="1"><mxGeometry x="60" y="455" width="350" height="18" as="geometry" /></mxCell>
+
         <!-- CRAH Units -->
-        <mxCell id="crah-1" value="CRAH 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="530" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="crah-2" value="CRAH 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="530" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="crah-3" value="CRAH 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="530" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="crah-4" value="CRAH 4&#xa;(N+1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="530" width="100" height="50" as="geometry" />
-        </mxCell>
-        <!-- Data Hall -->
-        <mxCell id="dh" value="DATA HALL&#xa;Hot/Cold Aisle Containment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="650" width="500" height="80" as="geometry" />
-        </mxCell>
+        <mxCell id="crah-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#922b21;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="80" y="490" width="130" height="75" as="geometry" /></mxCell>
+        <mxCell id="crah-1-l" value="CRAH-1" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="80" y="492" width="130" height="14" as="geometry" /></mxCell>
+        <mxCell id="crah-1-d" value="DOWNFLOW&#xa;VARIABLE SPEED FAN&#xa;150 kW COOLING" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#fadbd8;" vertex="1" parent="1"><mxGeometry x="80" y="510" width="130" height="36" as="geometry" /></mxCell>
+        <mxCell id="crah-1-t" value="CRAH-1" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#922b21;rounded=1;" vertex="1" parent="1"><mxGeometry x="170" y="492" width="40" height="14" as="geometry" /></mxCell>
+
+        <mxCell id="crah-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#922b21;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="240" y="490" width="130" height="75" as="geometry" /></mxCell>
+        <mxCell id="crah-2-l" value="CRAH-2" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="240" y="492" width="130" height="14" as="geometry" /></mxCell>
+        <mxCell id="crah-2-d" value="DOWNFLOW&#xa;VARIABLE SPEED FAN&#xa;150 kW COOLING" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#fadbd8;" vertex="1" parent="1"><mxGeometry x="240" y="510" width="130" height="36" as="geometry" /></mxCell>
+        <mxCell id="crah-2-t" value="CRAH-2" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#922b21;rounded=1;" vertex="1" parent="1"><mxGeometry x="330" y="492" width="40" height="14" as="geometry" /></mxCell>
+
+        <mxCell id="crah-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#922b21;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="400" y="490" width="130" height="75" as="geometry" /></mxCell>
+        <mxCell id="crah-3-l" value="CRAH-3" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="400" y="492" width="130" height="14" as="geometry" /></mxCell>
+        <mxCell id="crah-3-d" value="DOWNFLOW&#xa;VARIABLE SPEED FAN&#xa;150 kW COOLING" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#fadbd8;" vertex="1" parent="1"><mxGeometry x="400" y="510" width="130" height="36" as="geometry" /></mxCell>
+        <mxCell id="crah-3-t" value="CRAH-3" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#922b21;rounded=1;" vertex="1" parent="1"><mxGeometry x="490" y="492" width="40" height="14" as="geometry" /></mxCell>
+
+        <mxCell id="crah-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#922b21;strokeWidth=2;dashed=1;dashPattern=8 4;" vertex="1" parent="1"><mxGeometry x="560" y="490" width="130" height="75" as="geometry" /></mxCell>
+        <mxCell id="crah-4-l" value="CRAH-4 (N+1)" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="560" y="492" width="130" height="14" as="geometry" /></mxCell>
+        <mxCell id="crah-4-d" value="DOWNFLOW&#xa;VARIABLE SPEED FAN&#xa;150 kW (STANDBY)" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#fadbd8;" vertex="1" parent="1"><mxGeometry x="560" y="510" width="130" height="36" as="geometry" /></mxCell>
+        <mxCell id="crah-4-t" value="CRAH-4" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#922b21;rounded=1;" vertex="1" parent="1"><mxGeometry x="650" y="492" width="40" height="14" as="geometry" /></mxCell>
+
+        <!-- CRAH to SCHW connections -->
+        <mxCell id="cr1-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="145" y="420" as="sourcePoint" /><mxPoint x="145" y="490" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="cr2-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="305" y="420" as="sourcePoint" /><mxPoint x="305" y="490" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="cr3-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="465" y="420" as="sourcePoint" /><mxPoint x="465" y="490" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="cr4-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="625" y="420" as="sourcePoint" /><mxPoint x="625" y="490" as="targetPoint" /></mxGeometry></mxCell>
+
+        <!-- Airflow Diagram -->
+        <mxCell id="airflow-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9fafb;strokeColor=#bdc3c7;strokeWidth=1.5;" vertex="1" parent="1"><mxGeometry x="80" y="590" width="880" height="170" as="geometry" /></mxCell>
+        <mxCell id="af-title" value="AIRFLOW PATTERN  —  HOT/COLD AISLE CONTAINMENT" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontStyle=5;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1"><mxGeometry x="80" y="592" width="880" height="18" as="geometry" /></mxCell>
+
+        <!-- Cold aisle -->
+        <mxCell id="af-cold" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=none;opacity=60;" vertex="1" parent="1"><mxGeometry x="100" y="620" width="840" height="30" as="geometry" /></mxCell>
+        <mxCell id="af-cold-l" value="COLD AISLE  —  SUPPLY AIR 18-22°C  (ASHRAE A1 ENVELOPE)" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontStyle=3;fontFamily=Helvetica;fontColor=#2471a3;" vertex="1" parent="1"><mxGeometry x="100" y="622" width="840" height="14" as="geometry" /></mxCell>
+        <mxCell id="af-cold-arrow" value="↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;fontColor=#2471a3;" vertex="1" parent="1"><mxGeometry x="100" y="636" width="840" height="14" as="geometry" /></mxCell>
+
+        <!-- Rack rows -->
+        <mxCell id="af-row1" value="ROW A  |  ROW B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=8;fontStyle=1;fontFamily=Courier New;fontColor=#ecf0f1;" vertex="1" parent="1"><mxGeometry x="100" y="655" width="840" height="18" as="geometry" /></mxCell>
+
+        <!-- Hot aisle -->
+        <mxCell id="af-hot" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5b7b1;strokeColor=none;opacity=60;" vertex="1" parent="1"><mxGeometry x="100" y="678" width="840" height="30" as="geometry" /></mxCell>
+        <mxCell id="af-hot-l" value="HOT AISLE (CONTAINED)  —  EXHAUST AIR 35-40°C  →  RETURN TO CRAH" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontStyle=3;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1"><mxGeometry x="100" y="680" width="840" height="14" as="geometry" /></mxCell>
+        <mxCell id="af-hot-arrow" value="↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1"><mxGeometry x="100" y="694" width="840" height="14" as="geometry" /></mxCell>
+
+        <!-- Rack rows 2 -->
+        <mxCell id="af-row2" value="ROW C  |  ROW D" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=8;fontStyle=1;fontFamily=Courier New;fontColor=#ecf0f1;" vertex="1" parent="1"><mxGeometry x="100" y="713" width="840" height="18" as="geometry" /></mxCell>
+
+        <!-- Cold aisle 2 -->
+        <mxCell id="af-cold2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=none;opacity=60;" vertex="1" parent="1"><mxGeometry x="100" y="736" width="840" height="14" as="geometry" /></mxCell>
+        <mxCell id="af-cold2-l" value="COLD AISLE  (RAISED FLOOR PLENUM SUPPLY)" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontStyle=3;fontFamily=Helvetica;fontColor=#2471a3;" vertex="1" parent="1"><mxGeometry x="100" y="736" width="840" height="14" as="geometry" /></mxCell>
+
         <!-- Environmental Sensors -->
-        <mxCell id="env" value="ENVIRONMENTAL MONITORING&#xa;(Temperature, Humidity, Leak Detection)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="650" width="280" height="50" as="geometry" />
-        </mxCell>
-        <!-- Connections -->
-        <mxCell id="cc1" edge="1" source="ct-a" target="ch-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc2" edge="1" source="ct-b" target="ch-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc3" edge="1" source="ct-c" target="ch-c" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc4" edge="1" source="ch-a" target="pump-p" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc5" edge="1" source="ch-b" target="pump-p" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc6" edge="1" source="ch-c" target="pump-p" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc7" edge="1" source="pump-p" target="pump-s" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc8" edge="1" source="pump-s" target="crah-1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc9" edge="1" source="pump-s" target="crah-2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc10" edge="1" source="pump-s" target="crah-3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc11" edge="1" source="pump-s" target="crah-4" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc12" edge="1" source="crah-1" target="dh" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc13" edge="1" source="crah-2" target="dh" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="cc14" edge="1" source="crah-3" target="dh" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="env-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4ecf7;strokeColor=#6c3483;strokeWidth=1.5;" vertex="1" parent="1"><mxGeometry x="760" y="490" width="200" height="75" as="geometry" /></mxCell>
+        <mxCell id="env-l" value="ENVIRONMENTAL&#xa;MONITORING SYSTEM" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#6c3483;" vertex="1" parent="1"><mxGeometry x="760" y="494" width="200" height="26" as="geometry" /></mxCell>
+        <mxCell id="env-d" value="TEMPERATURE SENSORS (PER ROW)&#xa;HUMIDITY SENSORS&#xa;LEAK DETECTION (UNDER FLOOR)&#xa;→ ALERTS TO BMS / DCIM" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#6c3483;spacingLeft=5;" vertex="1" parent="1"><mxGeometry x="764" y="524" width="190" height="40" as="geometry" /></mxCell>
+        <mxCell id="env-t" value="EMS" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#6c3483;rounded=1;" vertex="1" parent="1"><mxGeometry x="930" y="494" width="30" height="14" as="geometry" /></mxCell>
+
+        <!-- ===== LEGEND ===== -->
+        <mxCell id="leg-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1"><mxGeometry x="1020" y="50" width="590" height="220" as="geometry" /></mxCell>
+        <mxCell id="leg-title" value="LEGEND &amp; SYMBOLS (PER ASHRAE TC 9.9)" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="1020" y="52" width="590" height="20" as="geometry" /></mxCell>
+        <mxCell id="leg-ln" value="" style="line;strokeColor=#333333;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="1020" y="72" width="590" height="1" as="geometry" /></mxCell>
+
+        <mxCell id="l1s" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2e86c1;strokeColor=#1a5276;" vertex="1" parent="1"><mxGeometry x="1035" y="82" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l1t" value="Cooling Tower" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="82" width="100" height="14" as="geometry" /></mxCell>
+        <mxCell id="l2s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e8449;strokeColor=#145a32;" vertex="1" parent="1"><mxGeometry x="1035" y="102" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l2t" value="Chiller" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="102" width="60" height="14" as="geometry" /></mxCell>
+        <mxCell id="l3s" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2e86c1;" vertex="1" parent="1"><mxGeometry x="1035" y="122" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l3t" value="Primary Pump" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="122" width="100" height="14" as="geometry" /></mxCell>
+        <mxCell id="l4s" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#abebc6;strokeColor=#1e8449;" vertex="1" parent="1"><mxGeometry x="1035" y="142" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l4t" value="Secondary Pump" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="142" width="110" height="14" as="geometry" /></mxCell>
+        <mxCell id="l5s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#922b21;" vertex="1" parent="1"><mxGeometry x="1035" y="162" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l5t" value="CRAH Unit" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="162" width="80" height="14" as="geometry" /></mxCell>
+        <mxCell id="l6s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4ecf7;strokeColor=#6c3483;" vertex="1" parent="1"><mxGeometry x="1035" y="182" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l6t" value="Environmental Monitoring" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="182" width="160" height="14" as="geometry" /></mxCell>
+        <mxCell id="l7s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2c3e50;dashed=1;dashPattern=8 4;" vertex="1" parent="1"><mxGeometry x="1035" y="202" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l7t" value="N+1 Redundant Component" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="202" width="170" height="14" as="geometry" /></mxCell>
+        <mxCell id="l8s" value="IV" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1;fontSize=6;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1035" y="222" width="16" height="14" as="geometry" /></mxCell>
+        <mxCell id="l8t" value="Isolation Valve (Concurrent Maint.)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="222" width="200" height="14" as="geometry" /></mxCell>
+
+        <!-- Pipe types -->
+        <mxCell id="lp1" value="" style="endArrow=none;strokeColor=#2e86c1;strokeWidth=3;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1280" y="89" as="sourcePoint" /><mxPoint x="1310" y="89" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="lp1t" value="Primary CHW Supply (7°C)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1320" y="82" width="160" height="14" as="geometry" /></mxCell>
+        <mxCell id="lp2" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=3;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1280" y="109" as="sourcePoint" /><mxPoint x="1310" y="109" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="lp2t" value="Secondary CHW Distribution" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1320" y="102" width="180" height="14" as="geometry" /></mxCell>
+        <mxCell id="lp3" value="" style="endArrow=none;strokeColor=#c0392b;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1280" y="129" as="sourcePoint" /><mxPoint x="1310" y="129" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="lp3t" value="CHW Return (12°C)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1320" y="122" width="130" height="14" as="geometry" /></mxCell>
+        <mxCell id="lp4" value="" style="endArrow=none;strokeColor=#2e86c1;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1280" y="149" as="sourcePoint" /><mxPoint x="1310" y="149" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="lp4t" value="Condenser Water" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1320" y="142" width="120" height="14" as="geometry" /></mxCell>
+
+        <mxCell id="ltags-t" value="EQUIPMENT TAGS:" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontStyle=5;fontFamily=Helvetica;fontColor=#333;" vertex="1" parent="1"><mxGeometry x="1280" y="170" width="120" height="14" as="geometry" /></mxCell>
+        <mxCell id="ltags" value="CT   = Cooling Tower&#xa;CH   = Chiller&#xa;CWP  = Condenser Water Pump&#xa;PP   = Primary Pump&#xa;SP   = Secondary Pump&#xa;CRAH = Computer Room Air Handler&#xa;EMS  = Environmental Monitoring&#xa;IV   = Isolation Valve" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Courier New;fontColor=#333;" vertex="1" parent="1"><mxGeometry x="1280" y="186" width="240" height="75" as="geometry" /></mxCell>
+
+        <!-- ===== NOTES ===== -->
+        <mxCell id="notes-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1"><mxGeometry x="50" y="780" width="950" height="190" as="geometry" /></mxCell>
+        <mxCell id="notes-title" value="GENERAL NOTES" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=5;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="50" y="782" width="950" height="22" as="geometry" /></mxCell>
+        <mxCell id="notes-line" value="" style="line;strokeColor=#333333;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="50" y="804" width="950" height="1" as="geometry" /></mxCell>
+        <mxCell id="notes-text" value="1.  COOLING SYSTEM DESIGN PER ASHRAE TC 9.9 THERMAL GUIDELINES (CLASS A1: 18-27°C SUPPLY AIR).&#xa;2.  CHILLED WATER SYSTEM: PRIMARY/SECONDARY VARIABLE FLOW WITH 7°C SUPPLY / 12°C RETURN (ΔT = 5°C).&#xa;3.  CHILLER CONFIGURATION: N+1 (3 UNITS: 2 ACTIVE + 1 STANDBY). EACH CHILLER: 500kW COOLING CAPACITY.&#xa;4.  TOTAL COOLING CAPACITY: 1000kW (N) + 500kW (SPARE) = 1500kW INSTALLED.&#xa;5.  CRAH CONFIGURATION: N+1 (4 UNITS: 3 ACTIVE + 1 STANDBY). EACH CRAH: 150kW.&#xa;6.  HOT AISLE CONTAINMENT WITH CEILING RETURN PLENUM. COLD AISLE FED VIA RAISED FLOOR PLENUM.&#xa;7.  ISOLATION VALVES ON ALL CHILLER AND CRAH CONNECTIONS FOR CONCURRENT MAINTAINABILITY.&#xa;8.  ALL PUMPS IN N+1 CONFIGURATION WITH AUTOMATIC FAILOVER.&#xa;9.  COOLING TOWERS: INDUCED DRAFT, COUNTERFLOW TYPE, N+1 REDUNDANCY.&#xa;10. ENVIRONMENTAL MONITORING: TEMPERATURE AND HUMIDITY SENSORS PER RACK ROW, LEAK DETECTION UNDER RAISED FLOOR.&#xa;11. BMS/DCIM INTEGRATION FOR AUTOMATED ALERTS AND CAPACITY MANAGEMENT.&#xa;12. DESIGN PUE TARGET: ≤1.4 (COOLING CONTRIBUTES ~0.2 TO PUE).&#xa;13. REFER TO SAT-DC-FP-001 FOR COOLING PLANT AND CRAH PHYSICAL LOCATIONS." style="text;html=1;align=left;verticalAlign=top;fontSize=7.5;fontFamily=Helvetica;fontColor=#333333;spacingLeft=8;spacingTop=5;" vertex="1" parent="1"><mxGeometry x="50" y="810" width="950" height="155" as="geometry" /></mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>

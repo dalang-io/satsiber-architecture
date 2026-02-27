@@ -1,94 +1,521 @@
 <mxfile host="app.diagrams.net" agent="draw.io" version="24.0.0">
   <diagram id="network-topology" name="Network Topology - Tier III">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <!-- Title -->
-        <mxCell id="t1" value="SATSIBER DC - NETWORK TOPOLOGY (TIER III)" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="30" width="550" height="40" as="geometry" />
+
+        <!-- DRAWING BORDER -->
+        <mxCell id="border-outer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1614" height="1129" as="geometry" />
         </mxCell>
+        <mxCell id="border-inner" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="1594" height="1109" as="geometry" />
+        </mxCell>
+
+        <!-- TITLE BLOCK -->
+        <mxCell id="tb-main" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="989" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-logo" value="SATSIBER" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="994" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-subtitle" value="DATA CENTER FACILITY" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontFamily=Helvetica;fontColor=#444444;letterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1025" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div1" value="" style="line;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="989" width="1" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-title" value="NETWORK TOPOLOGY DIAGRAM&#xa;LOGICAL &amp; PHYSICAL" style="text;html=1;align=left;verticalAlign=top;fontSize=13;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1000" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div2" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="1049" width="360" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-dwg" value="DWG NO:  SAT-DC-NT-001       REV: A       DATE: 2026-02-27" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1055" width="340" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div3" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="1075" width="360" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-std" value="SCALE: NTS     STD: TIA-942 / ISO/IEC 24764     UPTIME TIER III" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1080" width="340" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-class" value="UPTIME TIER III" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1100" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div4" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="1049" width="210" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-designed" value="DESIGNED: SATSIBER ENGINEERING" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1058" width="200" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-checked" value="CHECKED: —     APPROVED: —" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1078" width="200" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ========== ZONE LABELS ========== -->
+        <mxCell id="zone-wan" value="WAN / CARRIER ZONE" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=5;fontFamily=Helvetica;fontColor=#7f8c8d;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="48" width="160" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="zone-dmz" value="DMZ / PERIMETER ZONE" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=5;fontFamily=Helvetica;fontColor=#7f8c8d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="218" width="170" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="zone-core" value="CORE / DISTRIBUTION ZONE" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=5;fontFamily=Helvetica;fontColor=#7f8c8d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="408" width="180" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="zone-access" value="ACCESS / SERVER ZONE" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=5;fontFamily=Helvetica;fontColor=#7f8c8d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="598" width="160" height="16" as="geometry" />
+        </mxCell>
+
+        <!-- Zone separator lines -->
+        <mxCell id="zsep1" value="" style="endArrow=none;strokeColor=#bdc3c7;strokeWidth=1;dashed=1;dashPattern=16 8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="40" y="210" as="sourcePoint" /><mxPoint x="1000" y="210" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="zsep2" value="" style="endArrow=none;strokeColor=#bdc3c7;strokeWidth=1;dashed=1;dashPattern=16 8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="40" y="400" as="sourcePoint" /><mxPoint x="1000" y="400" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="zsep3" value="" style="endArrow=none;strokeColor=#bdc3c7;strokeWidth=1;dashed=1;dashPattern=16 8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="40" y="590" as="sourcePoint" /><mxPoint x="1000" y="590" as="targetPoint" /></mxGeometry>
+        </mxCell>
+
+        <!-- ========== PATH A (LEFT) ========== -->
+        <mxCell id="path-a" value="NETWORK PATH A" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=5;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="150" y="48" width="200" height="18" as="geometry" />
+        </mxCell>
+
         <!-- ISP A -->
-        <mxCell id="isp-a" value="ISP A&#xa;(Primary Carrier)" style="shape=mxgraph.cisco.clouds.cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="100" width="180" height="80" as="geometry" />
+        <mxCell id="isp-a" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="72" width="120" height="50" as="geometry" />
         </mxCell>
-        <!-- ISP B -->
-        <mxCell id="isp-b" value="ISP B&#xa;(Secondary Carrier)" style="shape=mxgraph.cisco.clouds.cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="100" width="180" height="80" as="geometry" />
+        <mxCell id="isp-a-label" value="ISP A&#xa;(PRIMARY CARRIER)" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2471a3;" vertex="1" parent="1">
+          <mxGeometry x="215" y="74" width="110" height="46" as="geometry" />
         </mxCell>
-        <!-- MMR -->
-        <mxCell id="mmr" value="MEET-ME ROOM (MMR)&#xa;Diverse Entry Points" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="120" width="380" height="50" as="geometry" />
+        <mxCell id="isp-a-tag" value="ISP-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2471a3;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="82" width="40" height="14" as="geometry" />
         </mxCell>
+
+        <!-- Carrier Entry A -->
+        <mxCell id="ce-a-line" value="" style="endArrow=none;strokeColor=#2471a3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="270" y="122" as="sourcePoint" /><mxPoint x="270" y="145" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="ce-a" value="CARRIER ENTRY A&#xa;(DIVERSE PATH)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4ecf7;strokeColor=#6c3483;strokeWidth=1.5;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#6c3483;" vertex="1" parent="1">
+          <mxGeometry x="210" y="145" width="120" height="28" as="geometry" />
+        </mxCell>
+
         <!-- Border Router A -->
-        <mxCell id="br-a" value="BORDER&#xa;ROUTER A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="220" width="120" height="50" as="geometry" />
+        <mxCell id="ce-a-to-br" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="270" y="173" as="sourcePoint" /><mxPoint x="270" y="195" as="targetPoint" /></mxGeometry>
         </mxCell>
-        <!-- Border Router B -->
-        <mxCell id="br-b" value="BORDER&#xa;ROUTER B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="220" width="120" height="50" as="geometry" />
+
+        <!-- MMR Box -->
+        <mxCell id="mmr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4ecf7;strokeColor=#6c3483;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="185" y="140" width="640" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mmr-label" value="MEET-ME ROOM (MMR)  —  DIVERSE CARRIER ENTRIES  —  CROSS-CONNECT PANELS" style="text;html=1;align=center;verticalAlign=bottom;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#6c3483;" vertex="1" parent="1">
+          <mxGeometry x="185" y="175" width="640" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mmr-tag" value="MMR" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#6c3483;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="795" y="142" width="30" height="14" as="geometry" />
+        </mxCell>
+
+        <mxCell id="br-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#2c3e50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="br-a-icon" value="BORDER ROUTER A" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="210" y="232" width="120" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="br-a-detail" value="BGP / OSPF&#xa;10GbE UPLINK" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="210" y="248" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="br-a-tag" value="BR-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2c3e50;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="244" width="38" height="14" as="geometry" />
+        </mxCell>
+
         <!-- Firewall A -->
-        <mxCell id="fw-a" value="FIREWALL A&#xa;(Active)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="310" width="120" height="50" as="geometry" />
+        <mxCell id="br-a-to-fw" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="270" y="280" as="sourcePoint" /><mxPoint x="270" y="310" as="targetPoint" /></mxGeometry>
         </mxCell>
-        <!-- Firewall B -->
-        <mxCell id="fw-b" value="FIREWALL B&#xa;(Standby)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="310" width="120" height="50" as="geometry" />
+        <mxCell id="fw-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fdedec;strokeColor=#c0392b;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="fw-a-icon" value="FIREWALL A" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1">
+          <mxGeometry x="210" y="312" width="120" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="fw-a-detail" value="HA ACTIVE&#xa;STATEFUL INSPECTION" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="210" y="328" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fw-a-tag" value="FW-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#c0392b;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="324" width="38" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- FW HA Heartbeat -->
+        <mxCell id="fw-ha" value="HA HEARTBEAT" style="endArrow=none;strokeColor=#c0392b;strokeWidth=1;dashed=1;dashPattern=4 4;fontSize=7;fontFamily=Helvetica;fontColor=#c0392b;fontStyle=2;labelPosition=center;verticalLabelPosition=middle;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="330" y="335" as="sourcePoint" /><mxPoint x="680" y="335" as="targetPoint" /></mxGeometry>
+        </mxCell>
+
         <!-- Core Switch A -->
-        <mxCell id="core-a" value="CORE SWITCH A&#xa;(L3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="410" width="150" height="60" as="geometry" />
+        <mxCell id="fw-a-to-core" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="270" y="360" as="sourcePoint" /><mxPoint x="270" y="420" as="targetPoint" /></mxGeometry>
         </mxCell>
+        <mxCell id="core-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="core-a-icon" value="CORE SWITCH A" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#1e8449;" vertex="1" parent="1">
+          <mxGeometry x="190" y="422" width="160" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="core-a-detail" value="L3 ROUTING (OSPF/BGP)&#xa;40GbE UPLINKS / 10GbE DOWNLINKS&#xa;STACK / VSS CAPABLE" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="core-a-tag" value="CORE-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#1e8449;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="438" width="50" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Core Cross-Connect -->
+        <mxCell id="core-xc" value="CROSS-CONNECT (40GbE)" style="endArrow=none;strokeColor=#1e8449;strokeWidth=2;dashed=1;dashPattern=8 4;fontSize=7;fontFamily=Helvetica;fontColor=#1e8449;fontStyle=2;labelPosition=center;verticalLabelPosition=middle;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="350" y="450" as="sourcePoint" /><mxPoint x="660" y="450" as="targetPoint" /></mxGeometry>
+        </mxCell>
+
+        <!-- Aggregation A -->
+        <mxCell id="core-a-to-agg" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="270" y="480" as="sourcePoint" /><mxPoint x="270" y="520" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="agg-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="agg-a-label" value="AGGREGATION SWITCH A" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2471a3;" vertex="1" parent="1">
+          <mxGeometry x="200" y="522" width="140" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="agg-a-detail" value="L2/L3 — 10GbE" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="200" y="538" width="140" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="agg-a-tag" value="AGG-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2471a3;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="530" width="48" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ToR Switches A -->
+        <mxCell id="agg-a-to-tor1" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="240" y="560" as="sourcePoint" /><mxPoint x="160" y="610" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="agg-a-to-tor2" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="260" y="560" as="sourcePoint" /><mxPoint x="260" y="610" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="agg-a-to-tor3" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="280" y="560" as="sourcePoint" /><mxPoint x="360" y="610" as="targetPoint" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="tor-a1" value="ToR-A1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="110" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor-a2" value="ToR-A2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="220" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor-a3" value="ToR-A3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Server Racks A -->
+        <mxCell id="rack-a1" value="ROW A&#xa;A01-A12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-a2" value="ROW B&#xa;B01-B12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-a3" value="ROW C&#xa;C01-C12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor-to-rack1" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="150" y="640" as="sourcePoint" /><mxPoint x="150" y="660" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="tor-to-rack2" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="260" y="640" as="sourcePoint" /><mxPoint x="260" y="660" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="tor-to-rack3" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="370" y="640" as="sourcePoint" /><mxPoint x="370" y="660" as="targetPoint" /></mxGeometry>
+        </mxCell>
+
+        <!-- ========== PATH B (RIGHT) ========== -->
+        <mxCell id="path-b" value="NETWORK PATH B" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=5;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="650" y="48" width="200" height="18" as="geometry" />
+        </mxCell>
+
+        <!-- ISP B -->
+        <mxCell id="isp-b" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="72" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="isp-b-label" value="ISP B&#xa;(SECONDARY CARRIER)" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2471a3;" vertex="1" parent="1">
+          <mxGeometry x="695" y="74" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="isp-b-tag" value="ISP-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2471a3;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="82" width="40" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Carrier Entry B -->
+        <mxCell id="ce-b-line" value="" style="endArrow=none;strokeColor=#2471a3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="750" y="122" as="sourcePoint" /><mxPoint x="750" y="145" as="targetPoint" /></mxGeometry>
+        </mxCell>
+
+        <!-- Border Router B -->
+        <mxCell id="br-b-line" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="750" y="200" as="sourcePoint" /><mxPoint x="750" y="230" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="br-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#2c3e50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="br-b-icon" value="BORDER ROUTER B" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="690" y="232" width="120" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="br-b-detail" value="BGP / OSPF&#xa;10GbE UPLINK" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="248" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="br-b-tag" value="BR-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2c3e50;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="244" width="38" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Firewall B -->
+        <mxCell id="br-b-to-fw" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="750" y="280" as="sourcePoint" /><mxPoint x="750" y="310" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="fw-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fdedec;strokeColor=#c0392b;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fw-b-icon" value="FIREWALL B" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1">
+          <mxGeometry x="690" y="312" width="120" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="fw-b-detail" value="HA STANDBY&#xa;STATEFUL INSPECTION" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="690" y="328" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fw-b-tag" value="FW-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#c0392b;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="324" width="38" height="14" as="geometry" />
+        </mxCell>
+
         <!-- Core Switch B -->
-        <mxCell id="core-b" value="CORE SWITCH B&#xa;(L3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="410" width="150" height="60" as="geometry" />
+        <mxCell id="fw-b-to-core" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="750" y="360" as="sourcePoint" /><mxPoint x="750" y="420" as="targetPoint" /></mxGeometry>
         </mxCell>
-        <!-- Aggregation Switch A -->
-        <mxCell id="agg-a" value="AGGREGATION A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="520" width="150" height="40" as="geometry" />
+        <mxCell id="core-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="420" width="160" height="60" as="geometry" />
         </mxCell>
-        <!-- Aggregation Switch B -->
-        <mxCell id="agg-b" value="AGGREGATION B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="520" width="150" height="40" as="geometry" />
+        <mxCell id="core-b-icon" value="CORE SWITCH B" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#1e8449;" vertex="1" parent="1">
+          <mxGeometry x="670" y="422" width="160" height="16" as="geometry" />
         </mxCell>
-        <!-- ToR Switches -->
-        <mxCell id="tor-1" value="ToR 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="620" width="100" height="40" as="geometry" />
+        <mxCell id="core-b-detail" value="L3 ROUTING (OSPF/BGP)&#xa;40GbE UPLINKS / 10GbE DOWNLINKS&#xa;STACK / VSS CAPABLE" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="670" y="440" width="160" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="tor-2" value="ToR 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="620" width="100" height="40" as="geometry" />
+        <mxCell id="core-b-tag" value="CORE-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#1e8449;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="438" width="50" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="tor-3" value="ToR 3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="620" width="100" height="40" as="geometry" />
+
+        <!-- Aggregation B -->
+        <mxCell id="core-b-to-agg" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="750" y="480" as="sourcePoint" /><mxPoint x="750" y="520" as="targetPoint" /></mxGeometry>
         </mxCell>
-        <mxCell id="tor-4" value="ToR 4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="620" width="100" height="40" as="geometry" />
+        <mxCell id="agg-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="140" height="40" as="geometry" />
         </mxCell>
-        <!-- Server Racks -->
-        <mxCell id="rack-label" value="SERVER RACKS (Dual-Homed)" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="710" width="380" height="30" as="geometry" />
+        <mxCell id="agg-b-label" value="AGGREGATION SWITCH B" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2471a3;" vertex="1" parent="1">
+          <mxGeometry x="680" y="522" width="140" height="14" as="geometry" />
         </mxCell>
-        <!-- OOB Management -->
-        <mxCell id="oob" value="OUT-OF-BAND&#xa;MANAGEMENT NETWORK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="420" width="220" height="50" as="geometry" />
+        <mxCell id="agg-b-detail" value="L2/L3 — 10GbE" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="538" width="140" height="18" as="geometry" />
         </mxCell>
-        <!-- Connections -->
-        <mxCell id="n1" edge="1" source="isp-a" target="mmr" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n2" edge="1" source="isp-b" target="mmr" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n3" edge="1" source="mmr" target="br-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n4" edge="1" source="mmr" target="br-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n5" edge="1" source="br-a" target="fw-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n6" edge="1" source="br-b" target="fw-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n7" edge="1" source="fw-a" target="core-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n8" edge="1" source="fw-b" target="core-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n9" value="Cross-Connect" style="dashed=1;" edge="1" source="core-a" target="core-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n10" edge="1" source="core-a" target="agg-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n11" edge="1" source="core-b" target="agg-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n12" edge="1" source="agg-a" target="tor-1" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n13" edge="1" source="agg-a" target="tor-2" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n14" edge="1" source="agg-b" target="tor-3" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="n15" edge="1" source="agg-b" target="tor-4" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="agg-b-tag" value="AGG-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2471a3;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="530" width="48" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ToR Switches B -->
+        <mxCell id="agg-b-to-tor4" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="720" y="560" as="sourcePoint" /><mxPoint x="640" y="610" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="agg-b-to-tor5" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="750" y="560" as="sourcePoint" /><mxPoint x="750" y="610" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="agg-b-to-tor6" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="780" y="560" as="sourcePoint" /><mxPoint x="860" y="610" as="targetPoint" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="tor-b1" value="ToR-B1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="600" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor-b2" value="ToR-B2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="710" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor-b3" value="ToR-B3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="820" y="610" width="80" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- Server Racks B -->
+        <mxCell id="rack-b1" value="ROW D&#xa;D01-D12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-b2" value="ROW E&#xa;E01-E12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-b3" value="ROW F&#xa;F01-F12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="660" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tor-to-rack4" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="640" y="640" as="sourcePoint" /><mxPoint x="640" y="660" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="tor-to-rack5" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="750" y="640" as="sourcePoint" /><mxPoint x="750" y="660" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="tor-to-rack6" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="860" y="640" as="sourcePoint" /><mxPoint x="860" y="660" as="targetPoint" /></mxGeometry>
+        </mxCell>
+
+        <!-- ========== OOB MANAGEMENT ========== -->
+        <mxCell id="oob-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;strokeWidth=1.5;dashed=1;dashPattern=8 4;" vertex="1" parent="1">
+          <mxGeometry x="430" y="420" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="oob-label" value="OUT-OF-BAND&#xa;MANAGEMENT NETWORK" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#b7950b;" vertex="1" parent="1">
+          <mxGeometry x="432" y="424" width="146" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oob-detail" value="IPMI / iLO / iDRAC&#xa;DEDICATED MGMT VLAN" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1">
+          <mxGeometry x="432" y="448" width="146" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="oob-tag" value="OOB" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#b7950b;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="422" width="30" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- DUAL HOME NOTE -->
+        <mxCell id="dual-note" value="ALL SERVERS DUAL-HOMED&#xa;(PATH A + PATH B)" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=3;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1">
+          <mxGeometry x="370" y="700" width="240" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- ========== CONCURRENT MAINTAINABILITY SEPARATOR ========== -->
+        <mxCell id="cm-sep" value="" style="endArrow=none;strokeColor=#c0392b;strokeWidth=1;dashed=1;dashPattern=12 8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="505" y="50" as="sourcePoint" /><mxPoint x="505" y="700" as="targetPoint" /></mxGeometry>
+        </mxCell>
+
+        <!-- ========== LEGEND ========== -->
+        <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="50" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="LEGEND &amp; SYMBOLS (PER TIA-942 / ISO/IEC 24764)" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="52" width="580" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-line" value="" style="line;strokeColor=#333333;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="72" width="580" height="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg1-s" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="82" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg1-t" value="ISP / WAN Cloud" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="82" width="110" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4ecf7;strokeColor=#6c3483;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="102" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2-t" value="Meet-Me Room / Carrier Entry" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="102" width="180" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#2c3e50;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="122" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3-t" value="Border Router" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="122" width="110" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fdedec;strokeColor=#c0392b;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="142" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4-t" value="Firewall (HA Pair)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="142" width="120" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg5-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="162" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg5-t" value="Core Switch (L3)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="162" width="110" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg6-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="182" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg6-t" value="Aggregation Switch (L2/L3)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="182" width="170" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg7-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#2c3e50;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="202" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg7-t" value="Top-of-Rack (ToR) Access Switch" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="202" width="190" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg8-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="222" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg8-t" value="Server Rack Row" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="222" width="110" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg9-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="242" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg9-t" value="Out-of-Band Management" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="242" width="160" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Second column -->
+        <mxCell id="leg-col2" value="LINK TYPES:" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontStyle=5;fontFamily=Helvetica;fontColor=#333;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="80" width="80" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-40g" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="1320" y="105" as="sourcePoint" /><mxPoint x="1345" y="105" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="leg-40g-t" value="40GbE (Core Uplink)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="98" width="130" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-10g" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="1320" y="125" as="sourcePoint" /><mxPoint x="1345" y="125" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="leg-10g-t" value="10GbE (Standard Link)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="118" width="140" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-1g" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="1320" y="145" as="sourcePoint" /><mxPoint x="1345" y="145" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="leg-1g-t" value="1GbE (Access Link)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="138" width="120" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-ha" value="" style="endArrow=none;strokeColor=#c0392b;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="1320" y="165" as="sourcePoint" /><mxPoint x="1345" y="165" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="leg-ha-t" value="HA Heartbeat Link" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="158" width="120" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-xc" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=2;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="1320" y="185" as="sourcePoint" /><mxPoint x="1345" y="185" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="leg-xc-t" value="Cross-Connect" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="178" width="100" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-cm" value="" style="endArrow=none;strokeColor=#c0392b;strokeWidth=1;dashed=1;dashPattern=12 8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="1320" y="205" as="sourcePoint" /><mxPoint x="1345" y="205" as="targetPoint" /></mxGeometry>
+        </mxCell>
+        <mxCell id="leg-cm-t" value="Concurrent Maintainability Boundary" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="198" width="220" height="14" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-tags-title" value="EQUIPMENT TAGS:" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontStyle=5;fontFamily=Helvetica;fontColor=#333;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="225" width="120" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-tags" value="ISP   = Internet Service Provider&#xa;BR    = Border Router&#xa;FW    = Firewall&#xa;CORE  = Core Switch (L3)&#xa;AGG   = Aggregation Switch&#xa;ToR   = Top-of-Rack Switch&#xa;OOB   = Out-of-Band Management" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Courier New;fontColor=#333;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="242" width="250" height="70" as="geometry" />
+        </mxCell>
+
+        <!-- ========== NOTES ========== -->
+        <mxCell id="notes-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="730" width="950" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-title" value="GENERAL NOTES" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=5;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="50" y="732" width="950" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-line" value="" style="line;strokeColor=#333333;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="50" y="754" width="950" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-text" value="1.  NETWORK DESIGN COMPLIANT WITH TIA-942 STRUCTURED CABLING AND ISO/IEC 24764 STANDARDS.&#xa;2.  DUAL DIVERSE CARRIER ENTRIES VIA SEPARATE CONDUIT PATHS AND PHYSICAL LOCATIONS.&#xa;3.  BORDER ROUTERS OPERATE BGP (eBGP TO ISP, iBGP INTERNALLY) WITH FULL TABLE + DEFAULT ROUTE.&#xa;4.  FIREWALLS DEPLOYED IN ACTIVE/STANDBY HA PAIR WITH STATEFUL SESSION SYNCHRONIZATION.&#xa;5.  CORE SWITCHES PROVIDE L3 ROUTING (OSPF AREA 0) WITH 40GbE INTERCONNECTS.&#xa;6.  CORE-A AND CORE-B CROSS-CONNECTED FOR PATH FAILOVER WITHOUT TRAFFIC INTERRUPTION.&#xa;7.  AGGREGATION LAYER PROVIDES L2/L3 BOUNDARY, VLAN TERMINATION, AND QoS ENFORCEMENT.&#xa;8.  TOP-OF-RACK (ToR) SWITCHES: DUAL UPLINK TO AGGREGATION (10GbE), 1GbE/10GbE SERVER PORTS.&#xa;9.  ALL SERVERS ARE DUAL-HOMED WITH NIC TEAMING (ACTIVE/STANDBY OR LACP) ACROSS PATH A AND PATH B.&#xa;10. OUT-OF-BAND (OOB) MANAGEMENT NETWORK IS PHYSICALLY SEPARATED FROM PRODUCTION TRAFFIC.&#xa;11. STRUCTURED CABLING: OM4 MULTIMODE FIBER (INTRA-RACK), OS2 SINGLE-MODE (INTER-ROOM), CAT6A (MGMT).&#xa;12. CONCURRENT MAINTAINABILITY: ANY SINGLE NETWORK PATH CAN BE FULLY MAINTAINED WITHOUT IMPACTING IT SERVICES.&#xa;13. REFER TO SAT-DC-FP-001 FOR MMR AND NOC PHYSICAL LOCATIONS." style="text;html=1;align=left;verticalAlign=top;fontSize=7.5;fontFamily=Helvetica;fontColor=#333333;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="758" width="950" height="200" as="geometry" />
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,58 +1,178 @@
 <mxfile host="app.diagrams.net" agent="draw.io" version="24.0.0">
-  <diagram id="fire-suppression" name="Fire Suppression System - Tier III">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <diagram id="fire-suppression" name="Fire Detection &amp; Suppression - Tier III">
+    <mxGraphModel dx="2074" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <!-- Title -->
-        <mxCell id="t1" value="SATSIBER DC - FIRE DETECTION &amp; SUPPRESSION SYSTEM" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="30" width="650" height="40" as="geometry" />
-        </mxCell>
-        <!-- FACP -->
-        <mxCell id="facp" value="FIRE ALARM&#xa;CONTROL PANEL (FACP)&#xa;(Redundant)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="100" width="280" height="70" as="geometry" />
-        </mxCell>
-        <!-- VESDA Zone 1 -->
-        <mxCell id="vesda-1" value="VESDA&#xa;Zone 1 - Data Hall" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="230" width="160" height="50" as="geometry" />
-        </mxCell>
-        <!-- VESDA Zone 2 -->
-        <mxCell id="vesda-2" value="VESDA&#xa;Zone 2 - UPS Room" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="230" width="160" height="50" as="geometry" />
-        </mxCell>
-        <!-- VESDA Zone 3 -->
-        <mxCell id="vesda-3" value="VESDA&#xa;Zone 3 - Battery Room" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="230" width="160" height="50" as="geometry" />
-        </mxCell>
-        <!-- VESDA Zone 4 -->
-        <mxCell id="vesda-4" value="VESDA&#xa;Zone 4 - MMR/NOC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="230" width="160" height="50" as="geometry" />
-        </mxCell>
-        <!-- Clean Agent System -->
-        <mxCell id="clean-agent" value="CLEAN AGENT SUPPRESSION&#xa;(Novec 1230 / FM-200)&#xa;Data Hall &amp; Critical Rooms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="350" width="300" height="70" as="geometry" />
-        </mxCell>
+        <!-- BORDER -->
+        <mxCell id="bo" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="20" y="20" width="1614" height="1129" as="geometry" /></mxCell>
+        <mxCell id="bi" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="30" y="30" width="1594" height="1109" as="geometry" /></mxCell>
+        <!-- TITLE BLOCK -->
+        <mxCell id="tb" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="1044" y="989" width="570" height="140" as="geometry" /></mxCell>
+        <mxCell id="tb1" value="SATSIBER" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1"><mxGeometry x="1054" y="994" width="200" height="35" as="geometry" /></mxCell>
+        <mxCell id="tb2" value="DATA CENTER FACILITY" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontFamily=Helvetica;fontColor=#444444;" vertex="1" parent="1"><mxGeometry x="1054" y="1025" width="200" height="20" as="geometry" /></mxCell>
+        <mxCell id="tbd1" value="" style="line;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1"><mxGeometry x="1254" y="989" width="1" height="140" as="geometry" /></mxCell>
+        <mxCell id="tbt" value="FIRE DETECTION &amp; SUPPRESSION SYSTEM&#xa;ZONE MAP &amp; SCHEMATIC" style="text;html=1;align=left;verticalAlign=top;fontSize=13;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1"><mxGeometry x="1264" y="1000" width="340" height="40" as="geometry" /></mxCell>
+        <mxCell id="tbd2" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="1254" y="1049" width="360" height="1" as="geometry" /></mxCell>
+        <mxCell id="tbdwg" value="DWG NO:  SAT-DC-FS-001       REV: A       DATE: 2026-02-27" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1264" y="1055" width="340" height="16" as="geometry" /></mxCell>
+        <mxCell id="tbd3" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="1254" y="1075" width="360" height="1" as="geometry" /></mxCell>
+        <mxCell id="tbstd" value="SCALE: NTS     STD: NFPA 75 / NFPA 2001     UPTIME TIER III" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1264" y="1080" width="340" height="16" as="geometry" /></mxCell>
+        <mxCell id="tbcl" value="UPTIME TIER III" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#b85450;" vertex="1" parent="1"><mxGeometry x="1264" y="1100" width="140" height="20" as="geometry" /></mxCell>
+        <mxCell id="tbd4" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="1044" y="1049" width="210" height="1" as="geometry" /></mxCell>
+        <mxCell id="tbdes" value="DESIGNED: SATSIBER ENGINEERING&#xa;CHECKED: —     APPROVED: —" style="text;html=1;align=left;verticalAlign=top;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1054" y="1058" width="200" height="28" as="geometry" /></mxCell>
+
+        <!-- ===== FIRE ALARM CONTROL PANEL (TOP CENTER) ===== -->
+        <mxCell id="facp-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#922b21;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="310" y="55" width="350" height="80" as="geometry" /></mxCell>
+        <mxCell id="facp-l" value="FIRE ALARM CONTROL PANEL (FACP)" style="text;html=1;align=center;verticalAlign=top;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="310" y="60" width="350" height="18" as="geometry" /></mxCell>
+        <mxCell id="facp-d" value="REDUNDANT FACP (PRIMARY + SECONDARY)&#xa;ADDRESSABLE LOOP — SIL 2 RATED&#xa;BATTERY BACKUP: 72 HOURS STANDBY" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#fadbd8;" vertex="1" parent="1"><mxGeometry x="310" y="80" width="350" height="40" as="geometry" /></mxCell>
+        <mxCell id="facp-t" value="FACP" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#641e16;rounded=1;" vertex="1" parent="1"><mxGeometry x="620" y="57" width="40" height="14" as="geometry" /></mxCell>
+
+        <!-- ===== DETECTION ZONES (VESDA) ===== -->
+        <mxCell id="det-l" value="VERY EARLY SMOKE DETECTION  —  VESDA ASPIRATING SYSTEM" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#95a5a6;" vertex="1" parent="1"><mxGeometry x="60" y="165" width="450" height="18" as="geometry" /></mxCell>
+
+        <!-- VESDA Zone 1 - Data Hall -->
+        <mxCell id="v1-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="60" y="195" width="200" height="70" as="geometry" /></mxCell>
+        <mxCell id="v1-l" value="VESDA ZONE 1  —  DATA HALL" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#7d6608;" vertex="1" parent="1"><mxGeometry x="60" y="197" width="200" height="14" as="geometry" /></mxCell>
+        <mxCell id="v1-d" value="VESDA VLP / VLS DETECTOR&#xa;SAMPLING PIPES: ABOVE &amp; BELOW FLOOR&#xa;4-STAGE ALARM (ALERT/ACTION/FIRE1/FIRE2)" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#7d6608;" vertex="1" parent="1"><mxGeometry x="60" y="215" width="200" height="40" as="geometry" /></mxCell>
+        <mxCell id="v1-t" value="VZ-1" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#b7950b;rounded=1;" vertex="1" parent="1"><mxGeometry x="225" y="197" width="35" height="14" as="geometry" /></mxCell>
+
+        <!-- VESDA Zone 2 - UPS Rooms -->
+        <mxCell id="v2-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="290" y="195" width="200" height="70" as="geometry" /></mxCell>
+        <mxCell id="v2-l" value="VESDA ZONE 2  —  UPS ROOMS" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#7d6608;" vertex="1" parent="1"><mxGeometry x="290" y="197" width="200" height="14" as="geometry" /></mxCell>
+        <mxCell id="v2-d" value="UPS ROOM A + UPS ROOM B&#xa;BATTERY MONITORING&#xa;HYDROGEN GAS DETECTION" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#7d6608;" vertex="1" parent="1"><mxGeometry x="290" y="215" width="200" height="40" as="geometry" /></mxCell>
+        <mxCell id="v2-t" value="VZ-2" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#b7950b;rounded=1;" vertex="1" parent="1"><mxGeometry x="455" y="197" width="35" height="14" as="geometry" /></mxCell>
+
+        <!-- VESDA Zone 3 - Electrical/MV -->
+        <mxCell id="v3-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="520" y="195" width="200" height="70" as="geometry" /></mxCell>
+        <mxCell id="v3-l" value="VESDA ZONE 3  —  ELECTRICAL" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#7d6608;" vertex="1" parent="1"><mxGeometry x="520" y="197" width="200" height="14" as="geometry" /></mxCell>
+        <mxCell id="v3-d" value="MV/LV SWITCHGEAR ROOM&#xa;TRANSFORMER ROOM&#xa;ARC FLASH DETECTION" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#7d6608;" vertex="1" parent="1"><mxGeometry x="520" y="215" width="200" height="40" as="geometry" /></mxCell>
+        <mxCell id="v3-t" value="VZ-3" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#b7950b;rounded=1;" vertex="1" parent="1"><mxGeometry x="685" y="197" width="35" height="14" as="geometry" /></mxCell>
+
+        <!-- VESDA Zone 4 - NOC/MMR -->
+        <mxCell id="v4-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="750" y="195" width="200" height="70" as="geometry" /></mxCell>
+        <mxCell id="v4-l" value="VESDA ZONE 4  —  NOC / MMR" style="text;html=1;align=center;verticalAlign=top;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#7d6608;" vertex="1" parent="1"><mxGeometry x="750" y="197" width="200" height="14" as="geometry" /></mxCell>
+        <mxCell id="v4-d" value="NETWORK OPERATIONS CENTER&#xa;MEET-ME ROOM&#xa;FIRE CONTROL PANEL ROOM" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#7d6608;" vertex="1" parent="1"><mxGeometry x="750" y="215" width="200" height="40" as="geometry" /></mxCell>
+        <mxCell id="v4-t" value="VZ-4" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#b7950b;rounded=1;" vertex="1" parent="1"><mxGeometry x="915" y="197" width="35" height="14" as="geometry" /></mxCell>
+
+        <!-- VESDA to FACP connections -->
+        <mxCell id="v1-facp" value="" style="endArrow=block;endFill=1;strokeColor=#c0392b;strokeWidth=1.5;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="160" y="195" as="sourcePoint" /><mxPoint x="380" y="135" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="v2-facp" value="" style="endArrow=block;endFill=1;strokeColor=#c0392b;strokeWidth=1.5;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="390" y="195" as="sourcePoint" /><mxPoint x="430" y="135" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="v3-facp" value="" style="endArrow=block;endFill=1;strokeColor=#c0392b;strokeWidth=1.5;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="620" y="195" as="sourcePoint" /><mxPoint x="530" y="135" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="v4-facp" value="" style="endArrow=block;endFill=1;strokeColor=#c0392b;strokeWidth=1.5;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="850" y="195" as="sourcePoint" /><mxPoint x="600" y="135" as="targetPoint" /></mxGeometry></mxCell>
+
+        <!-- ===== SUPPRESSION SYSTEMS ===== -->
+        <mxCell id="sup-l" value="FIRE SUPPRESSION SYSTEMS" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#95a5a6;" vertex="1" parent="1"><mxGeometry x="60" y="295" width="250" height="18" as="geometry" /></mxCell>
+
+        <!-- Clean Agent - Data Hall -->
+        <mxCell id="ca-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="60" y="325" width="300" height="100" as="geometry" /></mxCell>
+        <mxCell id="ca-l" value="CLEAN AGENT SUPPRESSION" style="text;html=1;align=center;verticalAlign=top;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#1e8449;" vertex="1" parent="1"><mxGeometry x="60" y="328" width="300" height="16" as="geometry" /></mxCell>
+        <mxCell id="ca-d" value="AGENT: NOVEC 1230 (FK-5-1-12) OR FM-200 (HFC-227ea)&#xa;PROTECTED ZONES: DATA HALL, UPS ROOMS, ELECTRICAL ROOM&#xa;DESIGN CONCENTRATION: 5.8% (NOVEC) / 7.0% (FM-200)&#xa;DISCHARGE TIME: ≤10 SECONDS (NFPA 2001)&#xa;CYLINDER STORAGE: ADJACENT TO PROTECTED ZONE&#xa;DOUBLE-INTERLOCK PRE-ACTION RELEASE" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#1e8449;spacingLeft=8;spacingTop=2;" vertex="1" parent="1"><mxGeometry x="60" y="348" width="300" height="72" as="geometry" /></mxCell>
+        <mxCell id="ca-t" value="CA" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#1e8449;rounded=1;" vertex="1" parent="1"><mxGeometry x="330" y="328" width="30" height="14" as="geometry" /></mxCell>
+
         <!-- Pre-Action Sprinkler -->
-        <mxCell id="sprinkler" value="PRE-ACTION&#xa;SPRINKLER SYSTEM&#xa;Non-Critical Areas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="350" width="300" height="70" as="geometry" />
-        </mxCell>
+        <mxCell id="pa-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="400" y="325" width="300" height="100" as="geometry" /></mxCell>
+        <mxCell id="pa-l" value="PRE-ACTION SPRINKLER SYSTEM" style="text;html=1;align=center;verticalAlign=top;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#2471a3;" vertex="1" parent="1"><mxGeometry x="400" y="328" width="300" height="16" as="geometry" /></mxCell>
+        <mxCell id="pa-d" value="TYPE: DOUBLE-INTERLOCK PRE-ACTION (NFPA 13)&#xa;PROTECTED ZONES: NOC, MMR, STAGING, CORRIDORS&#xa;REQUIRES: SMOKE DETECTION + SPRINKLER HEAD ACTIVATION&#xa;PREVENTS ACCIDENTAL WATER DISCHARGE&#xa;DRY PIPE UNTIL DUAL TRIGGER CONDITION MET" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#2471a3;spacingLeft=8;spacingTop=2;" vertex="1" parent="1"><mxGeometry x="400" y="348" width="300" height="72" as="geometry" /></mxCell>
+        <mxCell id="pa-t" value="PA" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2471a3;rounded=1;" vertex="1" parent="1"><mxGeometry x="670" y="328" width="30" height="14" as="geometry" /></mxCell>
+
+        <!-- FACP to suppression connections -->
+        <mxCell id="facp-ca" value="" style="endArrow=block;endFill=1;strokeColor=#c0392b;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="400" y="135" as="sourcePoint" /><mxPoint x="210" y="325" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="facp-pa" value="" style="endArrow=block;endFill=1;strokeColor=#c0392b;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="500" y="135" as="sourcePoint" /><mxPoint x="550" y="325" as="targetPoint" /></mxGeometry></mxCell>
+
+        <!-- ===== INTEGRATION SYSTEMS ===== -->
+        <mxCell id="int-l" value="SYSTEM INTEGRATIONS" style="text;html=1;align=left;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#95a5a6;" vertex="1" parent="1"><mxGeometry x="60" y="455" width="200" height="18" as="geometry" /></mxCell>
+
         <!-- EPO -->
-        <mxCell id="epo" value="EPO&#xa;(Emergency Power Off)&#xa;Integration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="100" width="180" height="70" as="geometry" />
-        </mxCell>
+        <mxCell id="epo-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8daef;strokeColor=#6c3483;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="60" y="485" width="220" height="80" as="geometry" /></mxCell>
+        <mxCell id="epo-l" value="EMERGENCY POWER OFF (EPO)" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#6c3483;" vertex="1" parent="1"><mxGeometry x="60" y="488" width="220" height="14" as="geometry" /></mxCell>
+        <mxCell id="epo-d" value="EPO INTEGRATION WITH FACP&#xa;ACTIVATED ON FIRE2 ALARM LEVEL&#xa;DISCONNECTS ALL IT POWER (UPS OUTPUT)&#xa;EPO BUTTONS AT ALL EXITS (NFPA 75)" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#6c3483;spacingLeft=8;spacingTop=2;" vertex="1" parent="1"><mxGeometry x="60" y="506" width="220" height="50" as="geometry" /></mxCell>
+        <mxCell id="epo-t" value="EPO" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#6c3483;rounded=1;" vertex="1" parent="1"><mxGeometry x="250" y="488" width="30" height="14" as="geometry" /></mxCell>
+
         <!-- BMS -->
-        <mxCell id="bms" value="BUILDING MANAGEMENT&#xa;SYSTEM (BMS)&#xa;Central Monitoring" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="490" width="340" height="60" as="geometry" />
-        </mxCell>
-        <!-- Connections -->
-        <mxCell id="fc1" edge="1" source="vesda-1" target="facp" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="fc2" edge="1" source="vesda-2" target="facp" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="fc3" edge="1" source="vesda-3" target="facp" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="fc4" edge="1" source="vesda-4" target="facp" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="fc5" edge="1" source="facp" target="clean-agent" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="fc6" edge="1" source="facp" target="sprinkler" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="fc7" edge="1" source="facp" target="epo" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="fc8" edge="1" source="facp" target="bms" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="bms-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#2c3e50;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="320" y="485" width="220" height="80" as="geometry" /></mxCell>
+        <mxCell id="bms-l" value="BUILDING MANAGEMENT SYSTEM" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1"><mxGeometry x="320" y="488" width="220" height="14" as="geometry" /></mxCell>
+        <mxCell id="bms-d" value="FACP → BMS MODBUS/BACnet INTEGRATION&#xa;REAL-TIME FIRE ZONE STATUS&#xa;HVAC SHUTDOWN ON FIRE ALARM&#xa;SMOKE DAMPER CONTROL" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#2c3e50;spacingLeft=8;spacingTop=2;" vertex="1" parent="1"><mxGeometry x="320" y="506" width="220" height="50" as="geometry" /></mxCell>
+        <mxCell id="bms-t" value="BMS" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2c3e50;rounded=1;" vertex="1" parent="1"><mxGeometry x="510" y="488" width="30" height="14" as="geometry" /></mxCell>
+
+        <!-- Notification -->
+        <mxCell id="notify-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="580" y="485" width="220" height="80" as="geometry" /></mxCell>
+        <mxCell id="notify-l" value="NOTIFICATION &amp; ANNUNCIATION" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#b7950b;" vertex="1" parent="1"><mxGeometry x="580" y="488" width="220" height="14" as="geometry" /></mxCell>
+        <mxCell id="notify-d" value="AUDIBLE/VISUAL ALARMS (ALL ZONES)&#xa;NOC OPERATOR NOTIFICATION (DCIM)&#xa;FIRE DEPARTMENT AUTO-DIAL&#xa;SMS/EMAIL ESCALATION" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#b7950b;spacingLeft=8;spacingTop=2;" vertex="1" parent="1"><mxGeometry x="580" y="506" width="220" height="50" as="geometry" /></mxCell>
+        <mxCell id="notify-t" value="ANN" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#b7950b;rounded=1;" vertex="1" parent="1"><mxGeometry x="770" y="488" width="30" height="14" as="geometry" /></mxCell>
+
+        <!-- FACP to integration connections -->
+        <mxCell id="facp-epo" value="" style="endArrow=block;endFill=1;strokeColor=#6c3483;strokeWidth=1.5;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="390" y="135" as="sourcePoint" /><mxPoint x="170" y="485" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="facp-bms" value="" style="endArrow=block;endFill=1;strokeColor=#2c3e50;strokeWidth=1.5;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="470" y="135" as="sourcePoint" /><mxPoint x="430" y="485" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="facp-notify" value="" style="endArrow=block;endFill=1;strokeColor=#b7950b;strokeWidth=1.5;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="560" y="135" as="sourcePoint" /><mxPoint x="690" y="485" as="targetPoint" /></mxGeometry></mxCell>
+
+        <!-- ===== SEQUENCE OF OPERATIONS ===== -->
+        <mxCell id="seq-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fdedec;strokeColor=#c0392b;strokeWidth=2;" vertex="1" parent="1"><mxGeometry x="60" y="600" width="900" height="150" as="geometry" /></mxCell>
+        <mxCell id="seq-l" value="SEQUENCE OF OPERATIONS  —  FIRE EVENT RESPONSE" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1"><mxGeometry x="60" y="602" width="900" height="20" as="geometry" /></mxCell>
+        <mxCell id="seq-ln" value="" style="line;strokeColor=#c0392b;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="60" y="622" width="900" height="1" as="geometry" /></mxCell>
+
+        <!-- Sequence steps -->
+        <mxCell id="s1" value="1&#xa;ALERT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="80" y="635" width="80" height="40" as="geometry" /></mxCell>
+        <mxCell id="s1d" value="VESDA ALERT&#xa;THRESHOLD" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1"><mxGeometry x="80" y="678" width="80" height="20" as="geometry" /></mxCell>
+        <mxCell id="s1-s2" value="→" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1"><mxGeometry x="165" y="640" width="30" height="30" as="geometry" /></mxCell>
+
+        <mxCell id="s2" value="2&#xa;ACTION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="200" y="635" width="80" height="40" as="geometry" /></mxCell>
+        <mxCell id="s2d" value="NOC NOTIFIED&#xa;INVESTIGATE" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1"><mxGeometry x="200" y="678" width="80" height="20" as="geometry" /></mxCell>
+        <mxCell id="s2-s3" value="→" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1"><mxGeometry x="285" y="640" width="30" height="30" as="geometry" /></mxCell>
+
+        <mxCell id="s3" value="3&#xa;FIRE 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5b7b1;strokeColor=#c0392b;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="320" y="635" width="80" height="40" as="geometry" /></mxCell>
+        <mxCell id="s3d" value="AUDIBLE ALARM&#xa;HVAC SHUTDOWN" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1"><mxGeometry x="320" y="678" width="80" height="20" as="geometry" /></mxCell>
+        <mxCell id="s3-s4" value="→" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1"><mxGeometry x="405" y="640" width="30" height="30" as="geometry" /></mxCell>
+
+        <mxCell id="s4" value="4&#xa;FIRE 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#922b21;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="440" y="635" width="80" height="40" as="geometry" /></mxCell>
+        <mxCell id="s4d" value="FIRE DEPT CALLED&#xa;30s COUNTDOWN" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1"><mxGeometry x="440" y="678" width="80" height="20" as="geometry" /></mxCell>
+        <mxCell id="s4-s5" value="→" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1"><mxGeometry x="525" y="640" width="30" height="30" as="geometry" /></mxCell>
+
+        <mxCell id="s5" value="5&#xa;SUPPRESS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="560" y="635" width="80" height="40" as="geometry" /></mxCell>
+        <mxCell id="s5d" value="CLEAN AGENT&#xa;DISCHARGE" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1"><mxGeometry x="560" y="678" width="80" height="20" as="geometry" /></mxCell>
+        <mxCell id="s5-s6" value="→" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1"><mxGeometry x="645" y="640" width="30" height="30" as="geometry" /></mxCell>
+
+        <mxCell id="s6" value="6&#xa;EPO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8daef;strokeColor=#6c3483;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="680" y="635" width="80" height="40" as="geometry" /></mxCell>
+        <mxCell id="s6d" value="EMERGENCY&#xa;POWER OFF" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1"><mxGeometry x="680" y="678" width="80" height="20" as="geometry" /></mxCell>
+        <mxCell id="s6-s7" value="→" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1"><mxGeometry x="765" y="640" width="30" height="30" as="geometry" /></mxCell>
+
+        <mxCell id="s7" value="7&#xa;RESPONSE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="800" y="635" width="80" height="40" as="geometry" /></mxCell>
+        <mxCell id="s7d" value="FIRE DEPT&#xa;ON-SITE" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666;" vertex="1" parent="1"><mxGeometry x="800" y="678" width="80" height="20" as="geometry" /></mxCell>
+
+        <mxCell id="seq-note" value="NOTE: ABORT BUTTON AVAILABLE AT EACH STEP. NOC OPERATOR CAN HOLD DISCHARGE DURING INVESTIGATION." style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1"><mxGeometry x="60" y="720" width="900" height="20" as="geometry" /></mxCell>
+
+        <!-- ===== LEGEND ===== -->
+        <mxCell id="leg-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1"><mxGeometry x="1020" y="50" width="590" height="200" as="geometry" /></mxCell>
+        <mxCell id="leg-title" value="LEGEND &amp; SYMBOLS (PER NFPA 75 / NFPA 2001)" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="1020" y="52" width="590" height="20" as="geometry" /></mxCell>
+        <mxCell id="leg-ln" value="" style="line;strokeColor=#333333;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="1020" y="72" width="590" height="1" as="geometry" /></mxCell>
+        <mxCell id="l1s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#922b21;" vertex="1" parent="1"><mxGeometry x="1035" y="82" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l1t" value="Fire Alarm Control Panel (FACP)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="82" width="200" height="14" as="geometry" /></mxCell>
+        <mxCell id="l2s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;" vertex="1" parent="1"><mxGeometry x="1035" y="102" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l2t" value="VESDA Detection Zone" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="102" width="150" height="14" as="geometry" /></mxCell>
+        <mxCell id="l3s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;" vertex="1" parent="1"><mxGeometry x="1035" y="122" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l3t" value="Clean Agent Suppression" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="122" width="160" height="14" as="geometry" /></mxCell>
+        <mxCell id="l4s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;" vertex="1" parent="1"><mxGeometry x="1035" y="142" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l4t" value="Pre-Action Sprinkler" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="142" width="130" height="14" as="geometry" /></mxCell>
+        <mxCell id="l5s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8daef;strokeColor=#6c3483;" vertex="1" parent="1"><mxGeometry x="1035" y="162" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l5t" value="Emergency Power Off (EPO)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="162" width="170" height="14" as="geometry" /></mxCell>
+        <mxCell id="l6s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#2c3e50;" vertex="1" parent="1"><mxGeometry x="1035" y="182" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l6t" value="BMS Integration" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="182" width="110" height="14" as="geometry" /></mxCell>
+        <mxCell id="l7s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#b7950b;" vertex="1" parent="1"><mxGeometry x="1035" y="202" width="20" height="14" as="geometry" /></mxCell>
+        <mxCell id="l7t" value="Notification / Annunciation" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="202" width="170" height="14" as="geometry" /></mxCell>
+        <mxCell id="l8" value="" style="endArrow=block;endFill=1;strokeColor=#c0392b;strokeWidth=2;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1035" y="228" as="sourcePoint" /><mxPoint x="1055" y="228" as="targetPoint" /></mxGeometry></mxCell>
+        <mxCell id="l8t" value="Signal / Control Line" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1"><mxGeometry x="1062" y="222" width="130" height="14" as="geometry" /></mxCell>
+
+        <mxCell id="ltags-t" value="EQUIPMENT TAGS:" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontStyle=5;fontFamily=Helvetica;fontColor=#333;" vertex="1" parent="1"><mxGeometry x="1320" y="80" width="120" height="14" as="geometry" /></mxCell>
+        <mxCell id="ltags" value="FACP = Fire Alarm Control Panel&#xa;VZ   = VESDA Zone&#xa;CA   = Clean Agent System&#xa;PA   = Pre-Action Sprinkler&#xa;EPO  = Emergency Power Off&#xa;BMS  = Building Management System&#xa;ANN  = Annunciation Panel" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Courier New;fontColor=#333;" vertex="1" parent="1"><mxGeometry x="1320" y="96" width="250" height="70" as="geometry" /></mxCell>
+
+        <mxCell id="lstd" value="APPLICABLE STANDARDS:" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontStyle=5;fontFamily=Helvetica;fontColor=#333;" vertex="1" parent="1"><mxGeometry x="1320" y="175" width="160" height="14" as="geometry" /></mxCell>
+        <mxCell id="lstd-d" value="NFPA 75  — IT Equipment Protection&#xa;NFPA 2001 — Clean Agent Systems&#xa;NFPA 13  — Sprinkler Systems&#xa;NFPA 72  — Fire Alarm &amp; Signaling&#xa;EN 54    — Fire Detection (EU)" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Courier New;fontColor=#333;" vertex="1" parent="1"><mxGeometry x="1320" y="192" width="250" height="55" as="geometry" /></mxCell>
+
+        <!-- ===== NOTES ===== -->
+        <mxCell id="notes-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1"><mxGeometry x="50" y="770" width="950" height="200" as="geometry" /></mxCell>
+        <mxCell id="notes-title" value="GENERAL NOTES" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=5;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="50" y="772" width="950" height="22" as="geometry" /></mxCell>
+        <mxCell id="notes-line" value="" style="line;strokeColor=#333333;strokeWidth=1;direction=south;" vertex="1" parent="1"><mxGeometry x="50" y="794" width="950" height="1" as="geometry" /></mxCell>
+        <mxCell id="notes-text" value="1.  FIRE PROTECTION SYSTEM DESIGNED PER NFPA 75 (PROTECTION OF IT EQUIPMENT) AND NFPA 2001 (CLEAN AGENT).&#xa;2.  VESDA ASPIRATING SMOKE DETECTION PROVIDES VERY EARLY WARNING — DETECTS SMOKE AT INCIPIENT STAGE.&#xa;3.  ALL DETECTION ZONES HAVE REDUNDANT SAMPLING PIPES: ABOVE CEILING AND BELOW RAISED FLOOR.&#xa;4.  CLEAN AGENT (NOVEC 1230 OR FM-200) USED IN ALL CRITICAL IT SPACES — SAFE FOR OCCUPIED AREAS.&#xa;5.  DOUBLE-INTERLOCK PRE-ACTION RELEASE: REQUIRES BOTH VESDA ALARM AND MANUAL CONFIRMATION.&#xa;6.  PRE-ACTION SPRINKLER IN NON-CRITICAL AREAS PREVENTS ACCIDENTAL WATER DAMAGE TO EQUIPMENT.&#xa;7.  EMERGENCY POWER OFF (EPO) INTEGRATES WITH FACP AT FIRE2 ALARM LEVEL PER NFPA 75.&#xa;8.  FACP HAS 72-HOUR BATTERY BACKUP AND IS CONNECTED TO UPS-PROTECTED POWER.&#xa;9.  BMS INTEGRATION VIA MODBUS/BACnet FOR REAL-TIME MONITORING AND HVAC SHUTDOWN.&#xa;10. ABORT BUTTON AVAILABLE IN NOC FOR 30-SECOND HOLD PERIOD BEFORE AGENT DISCHARGE.&#xa;11. ALL SUPPRESSION ZONES HAVE DOOR HOLDER RELEASE AND DAMPER CLOSURE ON ALARM.&#xa;12. REFER TO SAT-DC-FP-001 FOR FIRE CONTROL ROOM AND EPO BUTTON LOCATIONS." style="text;html=1;align=left;verticalAlign=top;fontSize=7.5;fontFamily=Helvetica;fontColor=#333333;spacingLeft=8;spacingTop=5;" vertex="1" parent="1"><mxGeometry x="50" y="800" width="950" height="160" as="geometry" /></mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>

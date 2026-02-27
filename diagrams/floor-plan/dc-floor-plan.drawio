@@ -1,53 +1,589 @@
 <mxfile host="app.diagrams.net" agent="draw.io" version="24.0.0">
   <diagram id="floor-plan-main" name="DC Floor Plan - Tier III">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <!-- Data Hall -->
-        <mxCell id="2" value="DATA HALL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="200" width="600" height="400" as="geometry" />
+
+        <!-- ========== DRAWING BORDER ========== -->
+        <mxCell id="border-outer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1614" height="1129" as="geometry" />
         </mxCell>
-        <!-- Hot Aisle -->
-        <mxCell id="3" value="Hot Aisle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="400" y="300" width="400" height="60" as="geometry" />
+        <mxCell id="border-inner" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="1594" height="1109" as="geometry" />
         </mxCell>
-        <!-- Cold Aisle -->
-        <mxCell id="4" value="Cold Aisle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="400" y="440" width="400" height="60" as="geometry" />
+
+        <!-- ========== TITLE BLOCK ========== -->
+        <mxCell id="tb-main" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="989" width="570" height="140" as="geometry" />
         </mxCell>
-        <!-- UPS Room -->
-        <mxCell id="5" value="UPS ROOM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="200" height="180" as="geometry" />
+        <mxCell id="tb-logo" value="SATSIBER" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="994" width="200" height="35" as="geometry" />
         </mxCell>
-        <!-- Battery Room -->
-        <mxCell id="6" value="BATTERY ROOM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="420" width="200" height="180" as="geometry" />
+        <mxCell id="tb-subtitle" value="DATA CENTER FACILITY" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontFamily=Helvetica;fontColor=#444444;letterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1025" width="200" height="20" as="geometry" />
         </mxCell>
-        <!-- Generator Yard -->
-        <mxCell id="7" value="GENERATOR YARD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="640" width="400" height="150" as="geometry" />
+        <mxCell id="tb-div1" value="" style="line;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="989" width="1" height="140" as="geometry" />
         </mxCell>
-        <!-- NOC -->
-        <mxCell id="8" value="NOC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="200" width="200" height="180" as="geometry" />
+        <mxCell id="tb-title-label" value="DRAWING TITLE:" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="992" width="100" height="14" as="geometry" />
         </mxCell>
-        <!-- MMR -->
-        <mxCell id="9" value="MEET-ME ROOM (MMR)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="420" width="200" height="180" as="geometry" />
+        <mxCell id="tb-title" value="DATA CENTER FLOOR PLAN&#xa;GENERAL ARRANGEMENT" style="text;html=1;align=left;verticalAlign=top;fontSize=13;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1006" width="340" height="40" as="geometry" />
         </mxCell>
-        <!-- Staging Area -->
-        <mxCell id="10" value="STAGING AREA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="640" width="300" height="150" as="geometry" />
+        <mxCell id="tb-div2" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="1049" width="360" height="1" as="geometry" />
         </mxCell>
-        <!-- Cooling Plant -->
-        <mxCell id="11" value="COOLING PLANT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="640" width="300" height="150" as="geometry" />
+        <mxCell id="tb-dwg-label" value="DWG NO:" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1052" width="60" height="14" as="geometry" />
         </mxCell>
-        <!-- Title -->
-        <mxCell id="12" value="SATSIBER DATA CENTER - FLOOR PLAN (TIER III)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="50" width="600" height="40" as="geometry" />
+        <mxCell id="tb-dwg" value="SAT-DC-FP-001" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1066" width="140" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="tb-rev-label" value="REV:" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1424" y="1052" width="40" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-rev" value="A" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1424" y="1066" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-date-label" value="DATE:" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1484" y="1052" width="40" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-date" value="2026-02-27" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1484" y="1066" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div3" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="1089" width="360" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-scale-label" value="SCALE:" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1092" width="40" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-scale" value="NTS" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1106" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-class-label" value="CLASSIFICATION:" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1424" y="1092" width="80" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-class" value="UPTIME TIER III" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1424" y="1106" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div4" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="1049" width="210" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-designed" value="DESIGNED:" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1052" width="60" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-designed-v" value="SATSIBER ENGINEERING" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1066" width="190" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div5" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="1089" width="210" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-checked" value="CHECKED:" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1092" width="60" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-checked-v" value="—" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1106" width="190" height="16" as="geometry" />
+        </mxCell>
+
+        <!-- ========== NORTH ARROW ========== -->
+        <mxCell id="north-arrow" value="N" style="shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fillColor=#1a1a2e;strokeColor=none;fontColor=#1a1a2e;fontSize=14;fontStyle=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ========== GRID REFERENCE (Column Letters) ========== -->
+        <mxCell id="grid-A" value="A" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="140" y="35" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="grid-B" value="B" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="380" y="35" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="grid-C" value="C" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="620" y="35" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="grid-D" value="D" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="860" y="35" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="grid-E" value="E" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="35" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ========== BUILDING ENVELOPE ========== -->
+        <mxCell id="building" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#333333;strokeWidth=3;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="1180" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="bldg-label" value="BUILDING ENVELOPE" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;fontColor=#999999;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="110" y="82" width="140" height="16" as="geometry" />
+        </mxCell>
+
+        <!-- ========== SECURITY VESTIBULE ========== -->
+        <mxCell id="vestibule" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vestibule-label" value="SECURITY VESTIBULE&#xa;&amp; MANTRAP" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="565" y="85" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vest-ref" value="R-01" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="82" width="30" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ========== LOBBY / RECEPTION ========== -->
+        <mxCell id="lobby" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="560" y="150" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lobby-label" value="LOBBY /&#xa;RECEPTION" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="565" y="155" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lobby-ref" value="R-02" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="152" width="30" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ========== DATA HALL ========== -->
+        <mxCell id="datahall" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8edf2;strokeColor=#2c3e50;strokeWidth=2.5;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="620" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="dh-label" value="DATA HALL" style="text;html=1;align=center;verticalAlign=top;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="490" y="262" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="dh-ref" value="R-03" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="262" width="30" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="dh-area" value="AREA: ~280 m²&#xa;RAISED FLOOR: 600mm&#xa;FLOOR LOAD: 12 kPa" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#666666;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Rack Rows (Hot/Cold Aisle) -->
+        <!-- Cold Aisle 1 -->
+        <mxCell id="cold1-zone" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cold1-label" value="COLD AISLE 1" style="text;html=1;align=left;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#2980b9;fontStyle=3;" vertex="1" parent="1">
+          <mxGeometry x="312" y="311" width="70" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Rack Row A -->
+        <mxCell id="row-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="row-a-label" value="ROW A  —  A01 | A02 | A03 | A04 | A05 | A06 | A07 | A08 | A09 | A10 | A11 | A12" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontColor=#ecf0f1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="560" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Hot Aisle 1 -->
+        <mxCell id="hot1-zone" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5b7b1;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="310" y="364" width="560" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hot1-label" value="HOT AISLE 1  (CONTAINED)" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#c0392b;fontStyle=3;" vertex="1" parent="1">
+          <mxGeometry x="310" y="368" width="560" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Rack Row B -->
+        <mxCell id="row-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="row-b-label" value="ROW B  —  B01 | B02 | B03 | B04 | B05 | B06 | B07 | B08 | B09 | B10 | B11 | B12" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontColor=#ecf0f1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="560" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Cold Aisle 2 -->
+        <mxCell id="cold2-zone" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="310" y="424" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cold2-label" value="COLD AISLE 2" style="text;html=1;align=left;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#2980b9;fontStyle=3;" vertex="1" parent="1">
+          <mxGeometry x="312" y="425" width="70" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Rack Row C -->
+        <mxCell id="row-c" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="454" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="row-c-label" value="ROW C  —  C01 | C02 | C03 | C04 | C05 | C06 | C07 | C08 | C09 | C10 | C11 | C12" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontColor=#ecf0f1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="454" width="560" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Hot Aisle 2 -->
+        <mxCell id="hot2-zone" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5b7b1;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="310" y="478" width="560" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hot2-label" value="HOT AISLE 2  (CONTAINED)" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#c0392b;fontStyle=3;" vertex="1" parent="1">
+          <mxGeometry x="310" y="482" width="560" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Rack Row D -->
+        <mxCell id="row-d" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="514" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="row-d-label" value="ROW D  —  D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontColor=#ecf0f1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="514" width="560" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Cold Aisle 3 -->
+        <mxCell id="cold3-zone" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="310" y="538" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cold3-label" value="COLD AISLE 3" style="text;html=1;align=left;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#2980b9;fontStyle=3;" vertex="1" parent="1">
+          <mxGeometry x="312" y="539" width="70" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Rack Row E -->
+        <mxCell id="row-e" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="568" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="row-e-label" value="ROW E  —  E01 | E02 | E03 | E04 | E05 | E06 | E07 | E08 | E09 | E10 | E11 | E12" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontColor=#ecf0f1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="568" width="560" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Hot Aisle 3 -->
+        <mxCell id="hot3-zone" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5b7b1;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="310" y="592" width="560" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hot3-label" value="HOT AISLE 3  (CONTAINED)" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#c0392b;fontStyle=3;" vertex="1" parent="1">
+          <mxGeometry x="310" y="596" width="560" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Rack Row F -->
+        <mxCell id="row-f" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="628" width="560" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="row-f-label" value="ROW F  —  F01 | F02 | F03 | F04 | F05 | F06 | F07 | F08 | F09 | F10 | F11 | F12" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontColor=#ecf0f1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="628" width="560" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- Cold Aisle 4 -->
+        <mxCell id="cold4-zone" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="310" y="652" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cold4-label" value="COLD AISLE 4" style="text;html=1;align=left;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#2980b9;fontStyle=3;" vertex="1" parent="1">
+          <mxGeometry x="312" y="653" width="70" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ========== PDU ZONE (inside data hall) ========== -->
+        <mxCell id="pdu-zone-a" value="PDU-A1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#b7950b;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="290" y="350" width="16" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pdu-zone-b" value="PDU-B1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#b7950b;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="290" y="460" width="16" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pdu-zone-c" value="PDU-A2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#b7950b;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="290" y="575" width="16" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ========== UPS ROOM A ========== -->
+        <mxCell id="ups-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#7d6608;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-a-label" value="UPS ROOM A" style="text;html=1;align=center;verticalAlign=top;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#7d6608;spacingTop=3;" vertex="1" parent="1">
+          <mxGeometry x="100" y="262" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-a-ref" value="R-04" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="262" width="30" height="14" as="geometry" />
+        </mxCell>
+        <!-- UPS Units -->
+        <mxCell id="ups-u1" value="UPS-A1&#xa;400kVA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4d03f;strokeColor=#b7950b;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="115" y="290" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-u2" value="UPS-A2&#xa;400kVA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4d03f;strokeColor=#b7950b;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="195" y="290" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-u3" value="UPS-A3&#xa;400kVA&#xa;(N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4d03f;strokeColor=#b7950b;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;dashed=1;dashPattern=8 4;" vertex="1" parent="1">
+          <mxGeometry x="115" y="340" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-a-sts" value="STS-A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#abebc6;strokeColor=#1e8449;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="115" y="400" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-a-batt" value="BATTERY BANK A&#xa;(VRLA / Li-Ion)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fadbd8;strokeColor=#943126;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="115" y="430" width="140" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- ========== UPS ROOM B ========== -->
+        <mxCell id="ups-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#7d6608;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="470" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-b-label" value="UPS ROOM B" style="text;html=1;align=center;verticalAlign=top;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#7d6608;spacingTop=3;" vertex="1" parent="1">
+          <mxGeometry x="100" y="472" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-b-ref" value="R-05" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="472" width="30" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-b1" value="UPS-B1&#xa;400kVA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4d03f;strokeColor=#b7950b;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="115" y="500" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-b2" value="UPS-B2&#xa;400kVA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4d03f;strokeColor=#b7950b;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="195" y="500" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-b3" value="UPS-B3&#xa;400kVA&#xa;(N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4d03f;strokeColor=#b7950b;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;dashed=1;dashPattern=8 4;" vertex="1" parent="1">
+          <mxGeometry x="115" y="550" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-b-sts" value="STS-B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#abebc6;strokeColor=#1e8449;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="115" y="610" width="140" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-b-batt" value="BATTERY BANK B&#xa;(VRLA / Li-Ion)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fadbd8;strokeColor=#943126;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="115" y="640" width="140" height="24" as="geometry" />
+        </mxCell>
+
+        <!-- ========== ELECTRICAL / MV ROOM ========== -->
+        <mxCell id="elec-room" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fdf2e9;strokeColor=#935116;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="elec-label" value="ELECTRICAL ROOM&#xa;MV/LV SWITCHGEAR" style="text;html=1;align=center;verticalAlign=top;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#935116;spacingTop=3;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="elec-ref" value="R-06" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="682" width="30" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="elec-xfmr" value="XFMR-A    XFMR-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#935116;" vertex="1" parent="1">
+          <mxGeometry x="110" y="720" width="150" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="elec-ats" value="ATS-A      ATS-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#935116;" vertex="1" parent="1">
+          <mxGeometry x="110" y="740" width="150" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="elec-swgr" value="MSB-A      MSB-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#935116;" vertex="1" parent="1">
+          <mxGeometry x="110" y="760" width="150" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ========== GENERATOR YARD ========== -->
+        <mxCell id="gen-yard" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eafaf1;strokeColor=#1e8449;strokeWidth=2;dashed=1;dashPattern=12 4;" vertex="1" parent="1">
+          <mxGeometry x="100" y="820" width="460" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gen-label" value="GENERATOR YARD  (OUTDOOR)" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#1e8449;spacingTop=3;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="100" y="820" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gen-ref" value="R-07" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="822" width="30" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="gen-a" value="GEN-A&#xa;2000 kVA&#xa;DIESEL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27ae60;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="120" y="855" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gen-b" value="GEN-B&#xa;2000 kVA&#xa;DIESEL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27ae60;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="230" y="855" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="gen-c" value="GEN-C&#xa;2000 kVA&#xa;(N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27ae60;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;dashed=1;dashPattern=8 4;" vertex="1" parent="1">
+          <mxGeometry x="340" y="855" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="fuel-tank" value="FUEL STORAGE&#xa;24HR RUNTIME" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#1e8449;" vertex="1" parent="1">
+          <mxGeometry x="450" y="865" width="90" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- ========== NOC / OPERATIONS ========== -->
+        <mxCell id="noc" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="910" y="260" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="noc-label" value="NOC&#xa;NETWORK OPERATIONS&#xa;CENTER" style="text;html=1;align=center;verticalAlign=top;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#2471a3;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="910" y="262" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="noc-ref" value="R-08" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="262" width="30" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="noc-vidwall" value="VIDEO WALL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2471a3;strokeColor=#1a5276;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#fff;" vertex="1" parent="1">
+          <mxGeometry x="930" y="310" width="140" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="noc-ops" value="OPERATOR STATIONS (6)" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#2471a3;" vertex="1" parent="1">
+          <mxGeometry x="930" y="340" width="140" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="noc-bms" value="BMS / DCIM MONITORING" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#2471a3;" vertex="1" parent="1">
+          <mxGeometry x="930" y="360" width="140" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ========== MEET-ME ROOM ========== -->
+        <mxCell id="mmr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4ecf7;strokeColor=#6c3483;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="910" y="450" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mmr-label" value="MEET-ME ROOM&#xa;(MMR)" style="text;html=1;align=center;verticalAlign=top;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#6c3483;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="910" y="452" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mmr-ref" value="R-09" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="452" width="30" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="mmr-detail" value="CARRIER ENTRY A (DIVERSE)&#xa;CARRIER ENTRY B (DIVERSE)&#xa;CROSS-CONNECT PANELS&#xa;FIBER DISTRIBUTION FRAMES" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#6c3483;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="920" y="490" width="160" height="55" as="geometry" />
+        </mxCell>
+
+        <!-- ========== COOLING PLANT ROOM ========== -->
+        <mxCell id="cooling" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ebf5fb;strokeColor=#2e86c1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="910" y="600" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cooling-label" value="COOLING PLANT&#xa;ROOM" style="text;html=1;align=center;verticalAlign=top;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#2e86c1;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="910" y="602" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cooling-ref" value="R-10" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="602" width="30" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cooling-detail" value="CRAH × 4 (3+1 N+1)&#xa;CHILLED WATER PUMPS&#xa;PIPING DISTRIBUTION" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#2e86c1;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="920" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ========== STAGING / LOADING ========== -->
+        <mxCell id="staging" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#808b96;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="910" y="720" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="staging-label" value="STAGING &amp;&#xa;LOADING DOCK" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="910" y="730" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="staging-ref" value="R-11" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="722" width="30" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ========== COOLING YARD (OUTDOOR) ========== -->
+        <mxCell id="cool-yard" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2e86c1;strokeWidth=2;dashed=1;dashPattern=12 4;" vertex="1" parent="1">
+          <mxGeometry x="570" y="820" width="460" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cool-yard-label" value="COOLING YARD  (OUTDOOR)" style="text;html=1;align=left;verticalAlign=top;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#2e86c1;spacingTop=3;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="570" y="820" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cool-yard-ref" value="R-12" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="822" width="30" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="chiller-a" value="CHILLER&#xa;A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2e86c1;strokeColor=#1a5276;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="590" y="860" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="chiller-b" value="CHILLER&#xa;B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2e86c1;strokeColor=#1a5276;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="690" y="860" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="chiller-c" value="CHILLER&#xa;C (N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2e86c1;strokeColor=#1a5276;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#ffffff;dashed=1;dashPattern=8 4;" vertex="1" parent="1">
+          <mxGeometry x="790" y="860" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-a" value="CT-A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2e86c1;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="900" y="855" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-b" value="CT-B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2e86c1;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="960" y="855" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-c" value="CT-C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#85c1e9;strokeColor=#2e86c1;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="890" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ct-label-note" value="COOLING TOWERS" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#2e86c1;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="890" y="920" width="80" height="12" as="geometry" />
+        </mxCell>
+
+        <!-- ========== FIRE PANEL ROOM ========== -->
+        <mxCell id="fire-room" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fdedec;strokeColor=#c0392b;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="730" y="150" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fire-label" value="FIRE CONTROL&#xa;PANEL ROOM" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1">
+          <mxGeometry x="730" y="155" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fire-ref" value="R-13" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="152" width="30" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="fire-detail" value="FACP (REDUNDANT)&#xa;VESDA CONTROLLERS" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#c0392b;" vertex="1" parent="1">
+          <mxGeometry x="735" y="195" width="150" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- ========== EMERGENCY EXIT ARROWS ========== -->
+        <mxCell id="exit-1" value="EXIT" style="shape=mxgraph.signs.safety.emergency_exit;fillColor=#27ae60;strokeColor=none;fontSize=6;fontColor=#27ae60;fontStyle=1;fontFamily=Helvetica;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="270" y="930" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="exit-2" value="EXIT" style="shape=mxgraph.signs.safety.emergency_exit;fillColor=#27ae60;strokeColor=none;fontSize=6;fontColor=#27ae60;fontStyle=1;fontFamily=Helvetica;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="790" width="30" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- ========== LEGEND ========== -->
+        <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="80" width="510" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="LEGEND" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=5;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="82" width="510" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-line" value="" style="line;strokeColor=#333333;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="104" width="510" height="1" as="geometry" />
+        </mxCell>
+        <!-- Legend items -->
+        <mxCell id="leg1-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e8edf2;strokeColor=#2c3e50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="115" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg1-t" value="Data Hall (White Space)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="115" width="130" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#7d6608;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="135" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2-t" value="UPS / Power Room" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="135" width="130" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eafaf1;strokeColor=#1e8449;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="155" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3-t" value="Generator Yard (Outdoor)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="155" width="130" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eaf2f8;strokeColor=#2471a3;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="175" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4-t" value="NOC / Operations" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="175" width="130" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg5-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f4ecf7;strokeColor=#6c3483;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="195" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg5-t" value="Meet-Me Room (MMR)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="195" width="130" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg6-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ebf5fb;strokeColor=#2e86c1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="215" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg6-t" value="Cooling Plant" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="215" width="130" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg7-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fdedec;strokeColor=#c0392b;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="235" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg7-t" value="Fire Control" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="235" width="130" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg8-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d4e6f1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="255" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg8-t" value="Cold Aisle" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="255" width="60" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg9-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5b7b1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="255" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg9-t" value="Hot Aisle (Contained)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="255" width="120" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Second column legend -->
+        <mxCell id="leg10-s" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="115" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg10-t" value="Server Rack Row" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="115" width="100" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg11-s" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9e79f;strokeColor=#b7950b;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="135" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg11-t" value="PDU Location" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="135" width="100" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg12-s" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#333;strokeWidth=1;dashed=1;dashPattern=8 4;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="155" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg12-t" value="N+1 Redundant Component" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="155" width="160" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg13-s" value="R-XX" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#b85450;fontStyle=1;fillColor=#fff;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="175" width="24" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg13-t" value="Room Reference Number" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="175" width="150" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ========== NOTES ========== -->
+        <mxCell id="notes-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="300" width="510" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-title" value="GENERAL NOTES" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=5;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="302" width="510" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-line" value="" style="line;strokeColor=#333333;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="324" width="510" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-text" value="1.  ALL DIMENSIONS ARE IN METERS UNLESS OTHERWISE NOTED.&#xa;2.  RAISED FLOOR HEIGHT: 600mm THROUGHOUT DATA HALL.&#xa;3.  HOT AISLE CONTAINMENT WITH CEILING PANELS.&#xa;4.  FLOOR LOADING CAPACITY: 12 kPa IN DATA HALL.&#xa;5.  MINIMUM 2 EMERGENCY EXITS PER FIRE CODE.&#xa;6.  DASHED OUTLINES INDICATE N+1 REDUNDANT COMPONENTS.&#xa;7.  ALL ROOMS EQUIPPED WITH VESDA SMOKE DETECTION.&#xa;8.  SECURITY ACCESS CONTROL ON ALL ROOM ENTRIES.&#xa;9.  CABLE ROUTING VIA RAISED FLOOR AND OVERHEAD TRAYS.&#xa;10. REFER TO SAT-DC-EL-001 FOR ELECTRICAL DISTRIBUTION." style="text;html=1;align=left;verticalAlign=top;fontSize=8;fontFamily=Helvetica;fontColor=#333333;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="330" width="510" height="145" as="geometry" />
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>

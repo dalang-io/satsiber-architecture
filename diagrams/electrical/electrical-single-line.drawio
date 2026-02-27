@@ -1,94 +1,645 @@
 <mxfile host="app.diagrams.net" agent="draw.io" version="24.0.0">
   <diagram id="electrical-sld" name="Electrical Single Line Diagram - Tier III">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <!-- Title -->
-        <mxCell id="t1" value="SATSIBER DC - ELECTRICAL SINGLE LINE DIAGRAM (TIER III)" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="30" width="700" height="40" as="geometry" />
+
+        <!-- DRAWING BORDER -->
+        <mxCell id="border-outer" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1614" height="1129" as="geometry" />
         </mxCell>
-        <!-- Utility Feed A -->
-        <mxCell id="uf-a" value="UTILITY FEED A&#xa;(PLN Primary)" style="shape=mxgraph.electrical.transmission.utility;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="100" width="160" height="80" as="geometry" />
+        <mxCell id="border-inner" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="1594" height="1109" as="geometry" />
         </mxCell>
-        <!-- Utility Feed B -->
-        <mxCell id="uf-b" value="UTILITY FEED B&#xa;(PLN Secondary)" style="shape=mxgraph.electrical.transmission.utility;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="100" width="160" height="80" as="geometry" />
+
+        <!-- TITLE BLOCK -->
+        <mxCell id="tb-main" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="989" width="570" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="tb-logo" value="SATSIBER" style="text;html=1;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="994" width="200" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-subtitle" value="DATA CENTER FACILITY" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontFamily=Helvetica;fontColor=#444444;letterSpacing=3;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1025" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div1" value="" style="line;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="989" width="1" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-title-label" value="DRAWING TITLE:" style="text;html=1;align=left;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="992" width="100" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-title" value="ELECTRICAL SINGLE LINE DIAGRAM&#xa;MAIN POWER DISTRIBUTION" style="text;html=1;align=left;verticalAlign=top;fontSize=13;fontStyle=1;fontFamily=Helvetica;fontColor=#1a1a2e;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1006" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div2" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="1049" width="360" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-dwg" value="DWG NO:  SAT-DC-EL-001" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1055" width="160" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-rev" value="REV: A" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1434" y="1055" width="50" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-date" value="DATE: 2026-02-27" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1494" y="1055" width="110" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div3" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1254" y="1075" width="360" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-scale" value="SCALE: NTS" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1080" width="80" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-std" value="STD: IEC 60617 / IEEE C2" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1374" y="1080" width="160" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-class" value="UPTIME TIER III" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1264" y="1100" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-div4" value="" style="line;strokeColor=#000000;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1044" y="1049" width="210" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-designed" value="DESIGNED: SATSIBER ENGINEERING" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1058" width="200" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-checked" value="CHECKED: —" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1078" width="200" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="tb-approved" value="APPROVED: —" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1054" y="1098" width="200" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- ============ PATH A (LEFT) ============ -->
+        <mxCell id="path-a-label" value="DISTRIBUTION PATH A" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=5;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Utility Feed A - IEC Utility Symbol -->
+        <mxCell id="util-a-bus" value="" style="shape=mxgraph.electrical.transmission.3PhaseSource;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="229" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="util-a-label" value="UTILITY FEED A&#xa;PLN 20kV 3φ" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="280" y="75" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="util-a-tag" value="UF-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2c3e50;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="82" width="40" height="14" as="geometry" />
+        </mxCell>
+
         <!-- MV Switchgear A -->
-        <mxCell id="mv-a" value="MV SWITCHGEAR A&#xa;20kV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="220" width="200" height="50" as="geometry" />
+        <mxCell id="mv-bus-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="350" height="8" as="geometry" />
         </mxCell>
-        <!-- MV Switchgear B -->
-        <mxCell id="mv-b" value="MV SWITCHGEAR B&#xa;20kV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="220" width="200" height="50" as="geometry" />
+        <mxCell id="mv-a-label" value="MV SWITCHGEAR A  —  20kV BUS" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="350" height="14" as="geometry" />
         </mxCell>
+        <mxCell id="mv-a-tag" value="MVSG-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2c3e50;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="55" height="14" as="geometry" />
+        </mxCell>
+        <!-- CB symbol on feeder -->
+        <mxCell id="cb-util-a" value="CB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=6;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="233" y="118" width="22" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="line-util-a1" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244" y="110" as="sourcePoint" />
+            <mxPoint x="244" y="118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-util-a2" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244" y="132" as="sourcePoint" />
+            <mxPoint x="244" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
         <!-- Generator A -->
-        <mxCell id="gen-a" value="GENERATOR A&#xa;(Diesel)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="220" width="110" height="50" as="geometry" />
+        <mxCell id="gen-a-sym" value="G" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="50" y="168" width="36" height="36" as="geometry" />
         </mxCell>
+        <mxCell id="gen-a-label" value="GEN-A&#xa;2000kVA DIESEL&#xa;415V 3φ 50Hz" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="208" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gen-a-line" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="86" y="186" as="sourcePoint" />
+            <mxPoint x="120" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gen-a-ats-label" value="ATS-A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="95" y="179" width="35" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Transformer A - IEC Symbol -->
+        <mxCell id="xfmr-a-line-top" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244" y="148" as="sourcePoint" />
+            <mxPoint x="244" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfmr-a-pri" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2c3e50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="232" y="190" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="xfmr-a-sec" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2c3e50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="232" y="208" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="xfmr-a-label" value="XFMR-A&#xa;2000kVA&#xa;20kV/415V&#xa;Dyn11" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="262" y="190" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="xfmr-a-line-bot" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244" y="232" as="sourcePoint" />
+            <mxPoint x="244" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- LV Switchboard A -->
+        <mxCell id="lv-bus-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-a-label" value="LV MAIN SWITCHBOARD A  —  415V BUS" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="350" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="lv-a-tag" value="MSB-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2c3e50;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="50" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- UPS A System -->
+        <mxCell id="ups-a-line" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="268" as="sourcePoint" />
+            <mxPoint x="195" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cb-ups-a" value="CB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=6;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="184" y="290" width="22" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-a-rect" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#2c3e50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="310" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-a-icon" value="UPS" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="150" y="312" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-a-detail" value="UPS-A1 / A2 / A3(N+1)&#xa;3×400kVA (2+1)" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="150" y="335" width="90" height="28" as="geometry" />
+        </mxCell>
+        <!-- Battery Symbol -->
+        <mxCell id="batt-a-sym" value="" style="shape=mxgraph.electrical.signal_sources.dc_source;fillColor=#000000;strokeColor=#2c3e50;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="115" y="324" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="batt-a-label" value="BATT-A&#xa;VRLA&#xa;15min" style="text;html=1;align=right;verticalAlign=top;fontSize=6;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="60" y="320" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="batt-a-line" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139" y="336" as="sourcePoint" />
+            <mxPoint x="150" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- UPS A output to STS bus -->
+        <mxCell id="ups-a-out" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="365" as="sourcePoint" />
+            <mxPoint x="195" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Maintenance Bypass A -->
+        <mxCell id="mbyp-a-line1" value="" style="endArrow=none;strokeColor=#999999;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="268" as="sourcePoint" />
+            <mxPoint x="340" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbyp-a-label" value="MAINT.&#xa;BYPASS" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#999999;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mbyp-a-sw" value="SW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;strokeWidth=1;fontSize=6;fontStyle=1;fontFamily=Helvetica;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="329" y="345" width="22" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- STS-A -->
+        <mxCell id="sts-bus-a" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e8449;strokeColor=#145a32;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-a-label" value="STS-A OUTPUT BUS  —  415V" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#1e8449;" vertex="1" parent="1">
+          <mxGeometry x="120" y="410" width="350" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-a-tag" value="STS-A" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#1e8449;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="50" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- PDU Feeders from Path A -->
+        <mxCell id="pdu-a1-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="408" as="sourcePoint" />
+            <mxPoint x="170" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdu-a1" value="PDU-A1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pdu-a2-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="408" as="sourcePoint" />
+            <mxPoint x="250" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdu-a2" value="PDU-A2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pdu-a3-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="408" as="sourcePoint" />
+            <mxPoint x="330" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdu-a3" value="PDU-A3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="300" y="450" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pdu-an-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="408" as="sourcePoint" />
+            <mxPoint x="410" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdu-an" value="PDU-An" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="60" height="28" as="geometry" />
+        </mxCell>
+
+        <!-- ============ PATH B (RIGHT) ============ -->
+        <mxCell id="path-b-label" value="DISTRIBUTION PATH B" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=5;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="560" y="50" width="350" height="20" as="geometry" />
+        </mxCell>
+
+        <!-- Utility Feed B -->
+        <mxCell id="util-b-bus" value="" style="shape=mxgraph.electrical.transmission.3PhaseSource;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="669" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="util-b-label" value="UTILITY FEED B&#xa;PLN 20kV 3φ" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontStyle=1;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="720" y="75" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="util-b-tag" value="UF-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2c3e50;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="82" width="40" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- MV Switchgear B -->
+        <mxCell id="mv-bus-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mv-b-label" value="MV SWITCHGEAR B  —  20kV BUS" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="560" y="150" width="350" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="mv-b-tag" value="MVSG-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2c3e50;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="140" width="55" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="cb-util-b" value="CB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=6;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="673" y="118" width="22" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="line-util-b1" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="684" y="110" as="sourcePoint" />
+            <mxPoint x="684" y="118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line-util-b2" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="684" y="132" as="sourcePoint" />
+            <mxPoint x="684" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
         <!-- Generator B -->
-        <mxCell id="gen-b" value="GENERATOR B&#xa;(Diesel)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="220" width="110" height="50" as="geometry" />
+        <mxCell id="gen-b-sym" value="G" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="940" y="168" width="36" height="36" as="geometry" />
         </mxCell>
-        <!-- Transformer A -->
-        <mxCell id="tx-a" value="TRANSFORMER A&#xa;20kV / 400V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="310" width="160" height="50" as="geometry" />
+        <mxCell id="gen-b-label" value="GEN-B&#xa;2000kVA DIESEL&#xa;415V 3φ 50Hz" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="930" y="208" width="90" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="gen-b-line" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="186" as="sourcePoint" />
+            <mxPoint x="940" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gen-b-ats-label" value="ATS-B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="900" y="179" width="35" height="14" as="geometry" />
+        </mxCell>
+
         <!-- Transformer B -->
-        <mxCell id="tx-b" value="TRANSFORMER B&#xa;20kV / 400V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="310" width="160" height="50" as="geometry" />
+        <mxCell id="xfmr-b-line-top" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="684" y="148" as="sourcePoint" />
+            <mxPoint x="684" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <!-- ATS A -->
-        <mxCell id="ats-a" value="ATS A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="400" width="100" height="40" as="geometry" />
+        <mxCell id="xfmr-b-pri" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2c3e50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="672" y="190" width="24" height="24" as="geometry" />
         </mxCell>
-        <!-- ATS B -->
-        <mxCell id="ats-b" value="ATS B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="400" width="100" height="40" as="geometry" />
+        <mxCell id="xfmr-b-sec" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2c3e50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="672" y="208" width="24" height="24" as="geometry" />
         </mxCell>
-        <!-- UPS A -->
-        <mxCell id="ups-a" value="UPS A&#xa;(N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="480" width="140" height="60" as="geometry" />
+        <mxCell id="xfmr-b-label" value="XFMR-B&#xa;2000kVA&#xa;20kV/415V&#xa;Dyn11" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="702" y="190" width="70" height="45" as="geometry" />
         </mxCell>
-        <!-- UPS B -->
-        <mxCell id="ups-b" value="UPS B&#xa;(N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="480" width="140" height="60" as="geometry" />
+        <mxCell id="xfmr-b-line-bot" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="684" y="232" as="sourcePoint" />
+            <mxPoint x="684" y="260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <!-- STS -->
-        <mxCell id="sts" value="STS&#xa;(Static Transfer Switch)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="580" width="200" height="50" as="geometry" />
+
+        <!-- LV Switchboard B -->
+        <mxCell id="lv-bus-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="350" height="8" as="geometry" />
         </mxCell>
-        <!-- PDU A -->
-        <mxCell id="pdu-a" value="PDU A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="680" width="120" height="40" as="geometry" />
+        <mxCell id="lv-b-label" value="LV MAIN SWITCHBOARD B  —  415V BUS" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="350" height="14" as="geometry" />
         </mxCell>
-        <!-- PDU B -->
-        <mxCell id="pdu-b" value="PDU B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="680" width="120" height="40" as="geometry" />
+        <mxCell id="lv-b-tag" value="MSB-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#2c3e50;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="260" width="50" height="14" as="geometry" />
         </mxCell>
-        <!-- IT Load -->
-        <mxCell id="it-load" value="IT EQUIPMENT&#xa;(Dual-Corded Servers)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="770" width="320" height="60" as="geometry" />
+
+        <!-- UPS B System -->
+        <mxCell id="ups-b-line" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="268" as="sourcePoint" />
+            <mxPoint x="635" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <!-- Connections -->
-        <mxCell id="c1" edge="1" source="uf-a" target="mv-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c2" edge="1" source="uf-b" target="mv-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c3" edge="1" source="gen-a" target="mv-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c4" edge="1" source="gen-b" target="mv-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c5" edge="1" source="mv-a" target="tx-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c6" edge="1" source="mv-b" target="tx-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c7" edge="1" source="tx-a" target="ats-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c8" edge="1" source="tx-b" target="ats-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c9" edge="1" source="ats-a" target="ups-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c10" edge="1" source="ats-b" target="ups-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c11" edge="1" source="ups-a" target="sts" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c12" edge="1" source="ups-b" target="sts" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c13" edge="1" source="sts" target="pdu-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c14" edge="1" source="sts" target="pdu-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c15" edge="1" source="pdu-a" target="it-load" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
-        <mxCell id="c16" edge="1" source="pdu-b" target="it-load" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="cb-ups-b" value="CB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=6;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="624" y="290" width="22" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-b-rect" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fef9e7;strokeColor=#2c3e50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="310" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-b-icon" value="UPS" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="590" y="312" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ups-b-detail" value="UPS-B1 / B2 / B3(N+1)&#xa;3×400kVA (2+1)" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="590" y="335" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="batt-b-sym" value="" style="shape=mxgraph.electrical.signal_sources.dc_source;fillColor=#000000;strokeColor=#2c3e50;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="555" y="324" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="batt-b-label" value="BATT-B&#xa;VRLA&#xa;15min" style="text;html=1;align=right;verticalAlign=top;fontSize=6;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="500" y="320" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="batt-b-line" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="579" y="336" as="sourcePoint" />
+            <mxPoint x="590" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ups-b-out" value="" style="endArrow=none;strokeColor=#2c3e50;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="365" as="sourcePoint" />
+            <mxPoint x="635" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Maintenance Bypass B -->
+        <mxCell id="mbyp-b-line1" value="" style="endArrow=none;strokeColor=#999999;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="268" as="sourcePoint" />
+            <mxPoint x="780" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbyp-b-label" value="MAINT.&#xa;BYPASS" style="text;html=1;align=center;verticalAlign=middle;fontSize=6;fontFamily=Helvetica;fontColor=#999999;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="790" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mbyp-b-sw" value="SW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;strokeWidth=1;fontSize=6;fontStyle=1;fontFamily=Helvetica;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="769" y="345" width="22" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- STS-B -->
+        <mxCell id="sts-bus-b" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e8449;strokeColor=#145a32;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="400" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-b-label" value="STS-B OUTPUT BUS  —  415V" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontStyle=1;fontFamily=Helvetica;fontColor=#1e8449;" vertex="1" parent="1">
+          <mxGeometry x="560" y="410" width="350" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="sts-b-tag" value="STS-B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Courier New;fontStyle=1;fontColor=#fff;fillColor=#1e8449;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="400" width="50" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- PDU Feeders from Path B -->
+        <mxCell id="pdu-b1-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="408" as="sourcePoint" />
+            <mxPoint x="610" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdu-b1" value="PDU-B1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="580" y="450" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pdu-b2-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="408" as="sourcePoint" />
+            <mxPoint x="690" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdu-b2" value="PDU-B2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="660" y="450" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pdu-b3-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="408" as="sourcePoint" />
+            <mxPoint x="770" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdu-b3" value="PDU-B3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="740" y="450" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="pdu-bn-line" value="" style="endArrow=none;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="408" as="sourcePoint" />
+            <mxPoint x="850" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdu-bn" value="PDU-Bn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5f5e3;strokeColor=#1e8449;strokeWidth=1.5;fontSize=8;fontStyle=1;fontFamily=Helvetica;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="450" width="60" height="28" as="geometry" />
+        </mxCell>
+
+        <!-- ============ IT LOAD (DUAL CORDED) ============ -->
+        <mxCell id="it-zone" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f2f3f4;strokeColor=#2c3e50;strokeWidth=2;dashed=1;dashPattern=8 4;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="880" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="it-label" value="IT EQUIPMENT  —  DUAL-CORDED SERVERS  (FEED A + FEED B)" style="text;html=1;align=center;verticalAlign=top;fontSize=11;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="880" height="25" as="geometry" />
+        </mxCell>
+
+        <!-- Server rack symbols -->
+        <mxCell id="rack-1" value="RACK&#xa;A01" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="545" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-2" value="RACK&#xa;A02" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="545" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-3" value="RACK&#xa;A03" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="545" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-dots" value=". . ." style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="380" y="545" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-n1" value="RACK&#xa;F10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="545" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-n2" value="RACK&#xa;F11" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="545" width="50" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-n3" value="RACK&#xa;F12" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;fontColor=#ecf0f1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="545" width="50" height="35" as="geometry" />
+        </mxCell>
+
+        <!-- Feed labels on racks -->
+        <mxCell id="feed-a-arrow" value="FEED A ←" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#1e8449;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="585" width="60" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="feed-b-arrow" value="→ FEED B" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#1e8449;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="585" width="60" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- PDU feed lines to IT -->
+        <mxCell id="pdu-a-to-it" value="" style="endArrow=block;endFill=1;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="478" as="sourcePoint" />
+            <mxPoint x="200" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdu-b-to-it" value="" style="endArrow=block;endFill=1;strokeColor=#1e8449;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="478" as="sourcePoint" />
+            <mxPoint x="810" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ============ SEPARATOR LINE ============ -->
+        <mxCell id="sep-line" value="" style="endArrow=none;strokeColor=#c0392b;strokeWidth=1;dashed=1;dashPattern=12 8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="40" as="sourcePoint" />
+            <mxPoint x="495" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sep-label" value="CONCURRENT&#xa;MAINTAINABILITY&#xa;BOUNDARY" style="text;html=1;align=center;verticalAlign=middle;fontSize=7;fontFamily=Helvetica;fontColor=#c0392b;fontStyle=3;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="470" y="475" width="50" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ============ GENERATOR SPARE (N+1) ============ -->
+        <mxCell id="gen-c-sym" value="G" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=2;fontSize=14;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;dashed=1;dashPattern=8 4;" vertex="1" parent="1">
+          <mxGeometry x="495" y="168" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="gen-c-label" value="GEN-C (N+1 SPARE)&#xa;2000kVA DIESEL&#xa;PARALLELING SWITCHGEAR" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="480" y="208" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="gen-c-line-a" value="" style="endArrow=block;endFill=1;strokeColor=#2c3e50;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="186" as="sourcePoint" />
+            <mxPoint x="470" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gen-c-line-b" value="" style="endArrow=block;endFill=1;strokeColor=#2c3e50;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="531" y="186" as="sourcePoint" />
+            <mxPoint x="560" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ============ LEGEND ============ -->
+        <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="510" width="580" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="LEGEND  &amp;  SYMBOLS  (PER IEC 60617)" style="text;html=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=5;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="512" width="580" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-line" value="" style="line;strokeColor=#333333;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="532" width="580" height="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-gen" value="G" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1.5;fontSize=10;fontStyle=1;fontFamily=Helvetica;fontColor=#2c3e50;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="542" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-gen-t" value="Generator (IEC 60617)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="542" width="140" height="20" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-xfmr1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2c3e50;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="567" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-xfmr2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2c3e50;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1043" y="567" width="16" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-xfmr-t" value="Transformer (IEC 60617)" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="567" width="150" height="16" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-cb" value="CB" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#2c3e50;strokeWidth=1;fontSize=7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="590" width="20" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-cb-t" value="Circuit Breaker" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="588" width="100" height="16" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-bus" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;strokeColor=#1a252f;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="610" width="20" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-bus-t" value="Bus Bar" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="607" width="80" height="14" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-sts" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1e8449;strokeColor=#145a32;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="627" width="20" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-sts-t" value="UPS/STS Output Bus" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="623" width="120" height="14" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-byp" value="——" style="text;html=1;align=center;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;fontColor=#999999;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="640" width="20" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-byp-t" value="Maintenance Bypass" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="640" width="120" height="14" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-n1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#2c3e50;strokeWidth=1;dashed=1;dashPattern=8 4;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="660" width="20" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-n1-t" value="N+1 Redundant Component" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="658" width="160" height="16" as="geometry" />
+        </mxCell>
+
+        <mxCell id="leg-sep" value="" style="endArrow=none;strokeColor=#c0392b;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="680" as="sourcePoint" />
+            <mxPoint x="1055" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leg-sep-t" value="Concurrent Maintainability Boundary" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="675" width="210" height="14" as="geometry" />
+        </mxCell>
+
+        <!-- Second column -->
+        <mxCell id="leg-col2-title" value="EQUIPMENT TAGS:" style="text;html=1;align=left;verticalAlign=middle;fontSize=8;fontStyle=5;fontFamily=Helvetica;fontColor=#333;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="540" width="120" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="leg-tags" value="UF    = Utility Feed&#xa;MVSG = MV Switchgear&#xa;XFMR = Transformer&#xa;ATS   = Auto Transfer Switch&#xa;MSB   = Main Switchboard&#xa;UPS   = Uninterruptible Power Supply&#xa;STS   = Static Transfer Switch&#xa;PDU   = Power Distribution Unit&#xa;GEN   = Diesel Generator&#xa;BATT  = Battery Bank&#xa;CB     = Circuit Breaker" style="text;html=1;align=left;verticalAlign=top;fontSize=7;fontFamily=Courier New;fontColor=#333;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="560" width="250" height="120" as="geometry" />
+        </mxCell>
+
+        <!-- ============ NOTES ============ -->
+        <mxCell id="notes-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="660" width="940" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-title" value="GENERAL NOTES" style="text;html=1;align=center;verticalAlign=middle;fontSize=11;fontStyle=5;fontFamily=Helvetica;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="50" y="662" width="940" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-line" value="" style="line;strokeColor=#333333;strokeWidth=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="50" y="684" width="940" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-text" value="1.  ALL ELECTRICAL INSTALLATIONS SHALL COMPLY WITH IEC 60364 AND LOCAL PLN REGULATIONS.&#xa;2.  SYMBOLS PER IEC 60617. SINGLE LINE DIAGRAM — NOT TO SCALE.&#xa;3.  SYSTEM VOLTAGE: 20kV (MV) / 415V (LV) / 3-PHASE + NEUTRAL + EARTH / 50Hz.&#xa;4.  DUAL INDEPENDENT UTILITY FEEDS FROM SEPARATE PLN SUBSTATIONS (DIVERSE ROUTING).&#xa;5.  GENERATOR CONFIGURATION: 2N+1 (GEN-A FOR PATH A, GEN-B FOR PATH B, GEN-C SHARED N+1 SPARE).&#xa;6.  AUTOMATIC TRANSFER SWITCH (ATS) PROVIDES &lt;10 SECOND TRANSFER TO GENERATOR ON UTILITY FAILURE.&#xa;7.  UPS CONFIGURATION: N+1 PER PATH (3 MODULES: 2 ACTIVE + 1 STANDBY). BATTERY RUNTIME: 15 MINUTES.&#xa;8.  STATIC TRANSFER SWITCH (STS) PROVIDES &lt;4ms TRANSFER BETWEEN UPS OUTPUT AND MAINTENANCE BYPASS.&#xa;9.  ALL IT EQUIPMENT IS DUAL-CORDED WITH INDEPENDENT A+B POWER FEEDS FROM SEPARATE DISTRIBUTION PATHS.&#xa;10. MAINTENANCE BYPASS ALLOWS ANY SINGLE UPS MODULE TO BE SERVICED WITHOUT INTERRUPTING IT LOAD.&#xa;11. EACH PDU FEEDS MAXIMUM 42 OUTLETS (C13/C19) WITH INDIVIDUAL BRANCH CIRCUIT BREAKERS.&#xa;12. TOTAL CRITICAL IT LOAD CAPACITY: 1.6MW (800kW PER PATH).&#xa;13. POWER USAGE EFFECTIVENESS (PUE) DESIGN TARGET: ≤1.4.&#xa;14. ALL CIRCUIT BREAKERS RATED FOR 65kA FAULT CURRENT AT LV LEVEL.&#xa;15. REFER TO SAT-DC-FP-001 FOR EQUIPMENT ROOM LOCATIONS." style="text;html=1;align=left;verticalAlign=top;fontSize=7.5;fontFamily=Helvetica;fontColor=#333333;spacingLeft=8;spacingTop=5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="690" width="940" height="270" as="geometry" />
+        </mxCell>
+
       </root>
     </mxGraphModel>
   </diagram>

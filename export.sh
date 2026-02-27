@@ -48,8 +48,8 @@ export_drawio() {
             --output "/data/build/pdf/$dir_part/" \
             "/data/diagrams/$rel_path"
     else
-        xvfb-run -a drawio --export --format png --output "$png_out" "$input"
-        xvfb-run -a drawio --export --format pdf --output "$pdf_out" "$input"
+        xvfb-run -a drawio --no-sandbox --export --format png --scale 2 --output "$png_out" "$input"
+        xvfb-run -a drawio --no-sandbox --export --format pdf --output "$pdf_out" "$input"
     fi
 
     echo "  -> PNG: build/png/$dir_part/${base}.png"

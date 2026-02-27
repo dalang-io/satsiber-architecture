@@ -10,3 +10,6 @@ Thumbs.db
 *.tmp
 *.bak
 *~
+
+# Build outputs (exported PNG/PDF from drawio)
+/build/

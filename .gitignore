@@ -11,5 +11,6 @@ Thumbs.db
 *.bak
 *~
 
-# Build outputs (exported PNG/PDF from drawio)
-/build/
+# Build outputs (exported PNG from drawio)
+/build/png/
+/build/dxf/

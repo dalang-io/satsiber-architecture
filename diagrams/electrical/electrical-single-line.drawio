@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" agent="draw.io" version="24.0.0">
+  <diagram id="electrical-sld" name="Electrical Single Line Diagram - Tier III">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Title -->
+        <mxCell id="t1" value="SATSIBER DC - ELECTRICAL SINGLE LINE DIAGRAM (TIER III)" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="700" height="40" as="geometry" />
+        </mxCell>
+        <!-- Utility Feed A -->
+        <mxCell id="uf-a" value="UTILITY FEED A&#xa;(PLN Primary)" style="shape=mxgraph.electrical.transmission.utility;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="160" height="80" as="geometry" />
+        </mxCell>
+        <!-- Utility Feed B -->
+        <mxCell id="uf-b" value="UTILITY FEED B&#xa;(PLN Secondary)" style="shape=mxgraph.electrical.transmission.utility;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="100" width="160" height="80" as="geometry" />
+        </mxCell>
+        <!-- MV Switchgear A -->
+        <mxCell id="mv-a" value="MV SWITCHGEAR A&#xa;20kV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="200" height="50" as="geometry" />
+        </mxCell>
+        <!-- MV Switchgear B -->
+        <mxCell id="mv-b" value="MV SWITCHGEAR B&#xa;20kV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="220" width="200" height="50" as="geometry" />
+        </mxCell>
+        <!-- Generator A -->
+        <mxCell id="gen-a" value="GENERATOR A&#xa;(Diesel)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <!-- Generator B -->
+        <mxCell id="gen-b" value="GENERATOR B&#xa;(Diesel)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <!-- Transformer A -->
+        <mxCell id="tx-a" value="TRANSFORMER A&#xa;20kV / 400V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="310" width="160" height="50" as="geometry" />
+        </mxCell>
+        <!-- Transformer B -->
+        <mxCell id="tx-b" value="TRANSFORMER B&#xa;20kV / 400V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="310" width="160" height="50" as="geometry" />
+        </mxCell>
+        <!-- ATS A -->
+        <mxCell id="ats-a" value="ATS A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <!-- ATS B -->
+        <mxCell id="ats-b" value="ATS B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <!-- UPS A -->
+        <mxCell id="ups-a" value="UPS A&#xa;(N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="480" width="140" height="60" as="geometry" />
+        </mxCell>
+        <!-- UPS B -->
+        <mxCell id="ups-b" value="UPS B&#xa;(N+1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="480" width="140" height="60" as="geometry" />
+        </mxCell>
+        <!-- STS -->
+        <mxCell id="sts" value="STS&#xa;(Static Transfer Switch)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="580" width="200" height="50" as="geometry" />
+        </mxCell>
+        <!-- PDU A -->
+        <mxCell id="pdu-a" value="PDU A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <!-- PDU B -->
+        <mxCell id="pdu-b" value="PDU B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <!-- IT Load -->
+        <mxCell id="it-load" value="IT EQUIPMENT&#xa;(Dual-Corded Servers)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="770" width="320" height="60" as="geometry" />
+        </mxCell>
+        <!-- Connections -->
+        <mxCell id="c1" edge="1" source="uf-a" target="mv-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c2" edge="1" source="uf-b" target="mv-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c3" edge="1" source="gen-a" target="mv-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c4" edge="1" source="gen-b" target="mv-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c5" edge="1" source="mv-a" target="tx-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c6" edge="1" source="mv-b" target="tx-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c7" edge="1" source="tx-a" target="ats-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c8" edge="1" source="tx-b" target="ats-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c9" edge="1" source="ats-a" target="ups-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c10" edge="1" source="ats-b" target="ups-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c11" edge="1" source="ups-a" target="sts" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c12" edge="1" source="ups-b" target="sts" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c13" edge="1" source="sts" target="pdu-a" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c14" edge="1" source="sts" target="pdu-b" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c15" edge="1" source="pdu-a" target="it-load" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="c16" edge="1" source="pdu-b" target="it-load" parent="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

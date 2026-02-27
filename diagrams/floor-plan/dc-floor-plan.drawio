@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" agent="draw.io" version="24.0.0">
+  <diagram id="floor-plan-main" name="DC Floor Plan - Tier III">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Data Hall -->
+        <mxCell id="2" value="DATA HALL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="600" height="400" as="geometry" />
+        </mxCell>
+        <!-- Hot Aisle -->
+        <mxCell id="3" value="Hot Aisle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="400" height="60" as="geometry" />
+        </mxCell>
+        <!-- Cold Aisle -->
+        <mxCell id="4" value="Cold Aisle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="400" height="60" as="geometry" />
+        </mxCell>
+        <!-- UPS Room -->
+        <mxCell id="5" value="UPS ROOM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="200" height="180" as="geometry" />
+        </mxCell>
+        <!-- Battery Room -->
+        <mxCell id="6" value="BATTERY ROOM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="200" height="180" as="geometry" />
+        </mxCell>
+        <!-- Generator Yard -->
+        <mxCell id="7" value="GENERATOR YARD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="640" width="400" height="150" as="geometry" />
+        </mxCell>
+        <!-- NOC -->
+        <mxCell id="8" value="NOC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="200" width="200" height="180" as="geometry" />
+        </mxCell>
+        <!-- MMR -->
+        <mxCell id="9" value="MEET-ME ROOM (MMR)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="420" width="200" height="180" as="geometry" />
+        </mxCell>
+        <!-- Staging Area -->
+        <mxCell id="10" value="STAGING AREA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="640" width="300" height="150" as="geometry" />
+        </mxCell>
+        <!-- Cooling Plant -->
+        <mxCell id="11" value="COOLING PLANT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="640" width="300" height="150" as="geometry" />
+        </mxCell>
+        <!-- Title -->
+        <mxCell id="12" value="SATSIBER DATA CENTER - FLOOR PLAN (TIER III)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="600" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

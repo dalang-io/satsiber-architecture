@@ -3,7 +3,6 @@
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
 
 # Temporary
@@ -11,5 +10,10 @@ Thumbs.db
 *.bak
 *~
 
-# Build outputs (exported PNG/PDF from drawio)
-/build/
+# Build outputs (exported PNG from drawio)
+/build/png/
+/build/dxf/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
